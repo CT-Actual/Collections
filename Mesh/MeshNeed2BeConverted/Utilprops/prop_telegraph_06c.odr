@@ -1,0 +1,63 @@
+Version 165 32
+{
+	Shaders
+	{
+		normal_spec.sps
+		{
+			DiffuseSampler Prop_Telegraph_05
+			BumpSampler prop_telegraph_05_n
+			SpecSampler prop_telegraph_05_s
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 6.00000000
+			SpecularFresnel 0.68000000
+		}
+		normal_spec_detail.sps
+		{
+			DiffuseSampler Prop_Telegraph_05
+			DetailSampler ENV_BARK
+			BumpSampler prop_telegraph_05_n
+			SpecSampler prop_telegraph_05_s
+			DetailSettings 0.40000000 0.30000000 5.90000000 4.96000000
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 6.00000000
+			SpecularFresnel 0.68000000
+		}
+		cutout.sps
+		{
+			DiffuseSampler prop_telegraph_02_lodprop_traffic_01_lod_a
+			HardAlphaBlend 0.00000000
+			UseTessellation 0.00000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		Center -0.03640000 0.12967100 3.09959900
+		Radius 3.10376200
+		AABBMin -0.17302700 0.04512100 -0.00000100
+		AABBMax 0.10022700 0.21422100 6.19920000
+		High 35.00000000
+		{
+			prop_telegraph_06c\prop_telegraph_06c_high.mesh 0
+		}
+		Med 70.00000000
+		{
+			prop_telegraph_06c\prop_telegraph_06c_med.mesh 0
+		}
+		Low 9998.00000000
+		{
+			prop_telegraph_06c\prop_telegraph_06c_low.mesh 0
+		}
+		Vlow 9998.00000000
+	}
+	Joints null
+	Light null
+	Bound prop_telegraph_06c\prop_telegraph_06c.bound
+}

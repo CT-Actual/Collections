@@ -1,0 +1,57 @@
+Version 165 32
+{
+	Shaders
+	{
+		normal_spec.sps
+		{
+			DiffuseSampler Prop_elecbox_23
+			BumpSampler prop_elecbox_23\prop_elecbox_23_n.otx
+			SpecSampler prop_elecbox_23\prop_elecbox_23_s.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 100.00000000
+			SpecularFresnel 0.77999990
+		}
+		glass_pv_env.sps
+		{
+			DiffuseSampler prop_elecbox_23\prop_elecbox_23prop_glass_a.otx
+			DecalTint 1.00000000 1.00000000 1.00000000 1.00000000
+			BrokenSpecularColor 0.46000000 0.61176500 0.61176500 1.00000000
+			BrokenDiffuseColor 0.46000000 0.61176500 0.61176500 0.56862700
+			UseTessellation 0.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 512.00000000
+			SpecularFresnel 0.96000000
+		}
+		default.sps
+		{
+			DiffuseSampler Prop_elecbox_23
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		Center 0.14160900 0.01351600 -0.08654200
+		Radius 1.17313000
+		AABBMin -0.57251000 -0.13983000 -1.00455700
+		AABBMax 0.85572800 0.16686200 0.83147300
+		High 60.00000000
+		{
+			prop_elecbox_23\prop_elecbox_23_high.mesh 0
+		}
+		Med 9998.00000000
+		{
+			prop_elecbox_23\prop_elecbox_23_med.mesh 0
+		}
+		Low 9998.00000000
+		Vlow 9998.00000000
+	}
+	Joints null
+	Light null
+	Bound prop_elecbox_23\prop_elecbox_23.bound
+}

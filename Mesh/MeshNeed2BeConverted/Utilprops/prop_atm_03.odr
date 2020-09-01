@@ -1,0 +1,77 @@
+Version 165 32
+{
+	Shaders
+	{
+		normal_spec.sps
+		{
+			DiffuseSampler prop_atm_03\prop_cashpoint_02b.otx
+			BumpSampler prop_atm_03\prop_cashpoint_02_n.otx
+			SpecSampler prop_atm_03\prop_cashpoint_02_s.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 20.00000000
+			SpecularFresnel 0.96000000
+		}
+		emissive.sps
+		{
+			DiffuseSampler prop_atm_03\prop_cashpoint_logo.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			EmissiveMultiplier 3.00000000
+		}
+		emissive.sps
+		{
+			DiffuseSampler prop_atm_03\prop_cashpoint_screen.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			EmissiveMultiplier 3.00000000
+		}
+		normal_spec_tnt.sps
+		{
+			DiffuseSampler prop_atm_03\prop_chrome_dirty_02.otx
+			TintPaletteSampler prop_atm_03\prop_atm_03_pal.otx
+			BumpSampler prop_atm_03\prop_glass_n.otx
+			SpecSampler prop_atm_03\prop_chrome_dirty_02.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 60.00000000
+			SpecularFresnel 0.70000000
+			TintPaletteSelector 0.00000000 0.00000000
+		}
+		default_tnt.sps
+		{
+			DiffuseSampler prop_atm_03\prop_chrome_dirty_02.otx
+			TintPaletteSampler prop_atm_03\prop_atm_03_l1_pal.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			TintPaletteSelector 0.00000000 0.00000000
+		}
+	}
+	Skeleton prop_atm_03\prop_atm_03.skel
+	LodGroup
+	{
+		Center 0.00000000 0.00584100 1.29137100
+		Radius 1.17507300
+		AABBMin -0.65593000 -0.16438500 0.33138400
+		AABBMax 0.65593000 0.17606600 2.25135900
+		High 40.00000000
+		{
+			prop_atm_03\prop_atm_03_high.mesh 0
+		}
+		Med 9998.00000000
+		{
+			prop_atm_03\prop_atm_03_med.mesh 0
+		}
+		Low 9998.00000000
+		Vlow 9998.00000000
+	}
+	Joints null
+	Light prop_atm_03\prop_atm_03.light
+	Bound prop_atm_03\prop_atm_03.bound
+}

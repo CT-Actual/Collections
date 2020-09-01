@@ -1,0 +1,37 @@
+Version 165 32
+{
+	Shaders
+	{
+		normal_spec.sps
+		{
+			DiffuseSampler prop_fire_hosereel\prop_fire_hosereel.otx
+			BumpSampler prop_fire_hosereel\prop_fire_hosereel_n.otx
+			SpecSampler prop_fire_hosereel\prop_fire_hosereel_s.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 0.50000000
+			SpecularFalloffMult 60.00000000
+			SpecularFresnel 0.96000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		Center 0.00000000 0.01505000 -0.10376000
+		Radius 0.71432200
+		AABBMin -0.43665700 -0.15089000 -0.64417700
+		AABBMax 0.43665700 0.18098900 0.43665700
+		High 9998.00000000
+		{
+			prop_fire_hosereel\prop_fire_hosereel_high.mesh 0
+		}
+		Med 9998.00000000
+		Low 9998.00000000
+		Vlow 9998.00000000
+	}
+	Joints null
+	Light null
+	Bound prop_fire_hosereel\prop_fire_hosereel.bound
+}

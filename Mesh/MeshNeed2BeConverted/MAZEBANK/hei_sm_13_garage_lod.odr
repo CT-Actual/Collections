@@ -1,0 +1,38 @@
+Version 165 32
+{
+	Shaders
+	{
+		normal_spec_detail.sps
+		{
+			DiffuseSampler im_concrete27
+			DetailSampler ENV_SMOOTH_CONCRETE2
+			BumpSampler IM_concrete27_N
+			SpecSampler IM_concrete27_s
+			DetailSettings 1.00000000 0.40000000 6.00000000 6.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecMapIntMask 0.00000000 0.00000000 1.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 120.00000000
+			SpecularFresnel 0.95000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		Center -6.27172900 -9.25851500 3.72071600
+		Radius 57.64243000
+		AABBMin -41.55530000 -54.67377000 -0.17467100
+		AABBMax 29.01184000 36.15674000 7.61610200
+		High 9998.00000000
+		{
+			hei_sm_13_garage_lod\hei_sm_13_garage_lod_high.mesh 0
+		}
+		Med 9998.00000000
+		Low 9998.00000000
+		Vlow 9998.00000000
+	}
+	Joints null
+	Light null
+	Bound null
+}

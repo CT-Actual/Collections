@@ -1,0 +1,38 @@
+Version 165 32
+{
+	Shaders
+	{
+		spec.sps
+		{
+			DiffuseSampler prop_fire_driser_2b\prop_fire_dryriser_2b.otx
+			SpecSampler prop_fire_driser_2b\prop_fire_dryriser_2s.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 0.30000000
+			SpecularFalloffMult 20.00000000
+			SpecularFresnel 0.05000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		Center 0.00000000 -0.03162700 0.00000000
+		Radius 0.55516500
+		AABBMin -0.33262600 -0.19182600 -0.41461300
+		AABBMax 0.33262600 0.12857200 0.41461300
+		High 40.00000000
+		{
+			prop_fire_driser_2b\prop_fire_driser_2b_high.mesh 0
+		}
+		Med 9998.00000000
+		{
+			prop_fire_driser_2b\prop_fire_driser_2b_med.mesh 0
+		}
+		Low 9998.00000000
+		Vlow 9998.00000000
+	}
+	Joints null
+	Light null
+	Bound prop_fire_driser_2b\prop_fire_driser_2b.bound
+}

@@ -1,0 +1,37 @@
+Version 165 32
+{
+	Shaders
+	{
+		normal_spec.sps
+		{
+			DiffuseSampler Prop_Fire_Hydrant_2
+			BumpSampler Prop_Fire_Hydrant_2_n
+			SpecSampler Prop_Fire_Hydrant_2_s
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.10000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 5.00000000
+			SpecularFresnel 0.75000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		Center -0.00912100 -0.02284000 0.43288800
+		Radius 0.53793400
+		AABBMin -0.22666200 -0.25561400 -0.00054700
+		AABBMax 0.20842000 0.20993500 0.86632200
+		High 9998.00000000
+		{
+			prop_fire_hydrant_2_l1\prop_fire_hydrant_2_l1_high.mesh 0
+		}
+		Med 9998.00000000
+		Low 9998.00000000
+		Vlow 9998.00000000
+	}
+	Joints null
+	Light null
+	Bound null
+}

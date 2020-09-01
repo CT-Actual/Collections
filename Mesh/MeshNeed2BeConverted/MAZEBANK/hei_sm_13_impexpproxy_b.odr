@@ -1,0 +1,30 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler IM_SM1_13_Wall_01
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		Center -3.78320300 -0.00003100 1.44695300
+		Radius 55.53021000
+		AABBMin -28.00671000 -24.22357000 -42.25711000
+		AABBMax 20.44031000 24.22351000 45.15102000
+		High 9998.00000000
+		{
+			hei_sm_13_impexpproxy_b\hei_sm_13_impexpproxy_b_high.mesh 0
+		}
+		Med 9998.00000000
+		Low 9998.00000000
+		Vlow 9998.00000000
+	}
+	Joints null
+	Light null
+	Bound null
+}

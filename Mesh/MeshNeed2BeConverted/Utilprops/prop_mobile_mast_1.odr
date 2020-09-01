@@ -1,0 +1,54 @@
+Version 165 32
+{
+	Shaders
+	{
+		normal_spec_detail.sps
+		{
+			DiffuseSampler prop_mobile_mast_1\prop_mobile_mast_1.otx
+			DetailSampler ENV_SMOOTH_CONCRETE2
+			BumpSampler prop_mobile_mast_1\prop_mobile_mast_1_n.otx
+			SpecSampler prop_mobile_mast_1\prop_mobile_mast_2.otx
+			DetailSettings 0.50000000 1.00000000 10.00000000 15.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 20.00000000
+			SpecularFresnel 0.85000000
+		}
+		emissive.sps
+		{
+			DiffuseSampler prop_mobile_mast_1\prop_mobile_mast_1.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			EmissiveMultiplier 10.00000000
+		}
+		cutout.sps
+		{
+			DiffuseSampler prop_mobile_mast_1\prop_mobile_mast_1_lodprop_mobile_mast_1_lod_a.otx
+			HardAlphaBlend 0.00000000
+			UseTessellation 0.00000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		Center -0.00205200 -0.56491900 13.41151000
+		Radius 13.75285000
+		AABBMin -2.28421800 -2.58087200 -0.00000100
+		AABBMax 2.28011300 1.45103500 26.82302000
+		High 60.00000000
+		{
+			prop_mobile_mast_1\prop_mobile_mast_1_high.mesh 0
+		}
+		Med 9998.00000000
+		{
+			prop_mobile_mast_1\prop_mobile_mast_1_med.mesh 0
+		}
+		Low 9998.00000000
+		Vlow 9998.00000000
+	}
+	Joints null
+	Light prop_mobile_mast_1\prop_mobile_mast_1.light
+	Bound prop_mobile_mast_1\prop_mobile_mast_1.bound
+}

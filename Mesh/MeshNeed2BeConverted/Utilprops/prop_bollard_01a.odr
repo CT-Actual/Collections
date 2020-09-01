@@ -1,0 +1,50 @@
+Version 165 32
+{
+	Shaders
+	{
+		normal_spec_tnt.sps
+		{
+			DiffuseSampler Prop_Bollard_02a
+			TintPaletteSampler prop_bollard_01a\prop_bollard_01a_pal.otx
+			BumpSampler prop_bollard_01a\prop_bollard_01a_n.otx
+			SpecSampler prop_bollard_01a\prop_bollard_01a_s.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.50000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 120.00000000
+			SpecularFresnel 0.95000000
+			TintPaletteSelector 0.00000000 0.00000000
+		}
+		default_tnt.sps
+		{
+			DiffuseSampler Prop_Bollard_02a
+			TintPaletteSampler prop_bollard_01a\prop_bollard_01a_l1_pal.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			TintPaletteSelector 0.00000000 0.00000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		Center 0.00000000 0.00000000 0.53208300
+		Radius 0.56076100
+		AABBMin -0.12518300 -0.12517700 0.00000000
+		AABBMax 0.12518300 0.12517700 1.06416700
+		High 30.00000000
+		{
+			prop_bollard_01a\prop_bollard_01a_high.mesh 0
+		}
+		Med 9998.00000000
+		{
+			prop_bollard_01a\prop_bollard_01a_med.mesh 0
+		}
+		Low 9998.00000000
+		Vlow 9998.00000000
+	}
+	Joints null
+	Light null
+	Bound prop_bollard_01a\prop_bollard_01a.bound
+}

@@ -1,0 +1,41 @@
+Version 165 32
+{
+	Shaders
+	{
+		emissive_speclum.sps
+		{
+			DiffuseSampler prop_parking_sign_06\prop_park_sign_04.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			SpecularIntensityMult 0.80000000
+			SpecularFalloffMult 150.00000000
+			SpecularFresnel 0.97000000
+			EmissiveMultiplier 3.00000000
+		}
+		default_detail.sps
+		{
+			DiffuseSampler prop_parking_sign_06\dh_ch02_metal02.otx
+			DetailSampler env_crusty
+			DetailSettings 0.10000000 0.10000000 10.00000000 10.00000000
+			UseTessellation 0.00000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		Center -0.00036600 -0.00239700 3.62859100
+		Radius 3.79631800
+		AABBMin -1.07876600 -0.28947600 0.00000000
+		AABBMax 1.07803300 0.28468300 7.25718200
+		High 9998.00000000
+		{
+			prop_parking_sign_06\prop_parking_sign_06_high.mesh 0
+		}
+		Med 9998.00000000
+		Low 9998.00000000
+		Vlow 9998.00000000
+	}
+	Joints null
+	Light null
+	Bound prop_parking_sign_06\prop_parking_sign_06.bound
+}

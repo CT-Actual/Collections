@@ -1,0 +1,37 @@
+Version 165 32
+{
+	Shaders
+	{
+		normal_spec.sps
+		{
+			DiffuseSampler prop_elecbox_13\prop_elecbox_13.otx
+			BumpSampler prop_elecbox_13\prop_elecbox_13_n.otx
+			SpecSampler prop_elecbox_13\prop_elecbox_13_s.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecMapIntMask 1.00000000 0.92156900 0.92156900
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 52.00000000
+			SpecularFresnel 0.86800000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		Center 0.00000000 -0.19833600 0.96409100
+		Radius 1.41645400
+		AABBMin -0.98880800 -0.51297000 -0.00007000
+		AABBMax 0.98880800 0.11629800 1.92825200
+		High 9998.00000000
+		{
+			prop_elecbox_13\prop_elecbox_13_high.mesh 0
+		}
+		Med 9998.00000000
+		Low 9998.00000000
+		Vlow 9998.00000000
+	}
+	Joints null
+	Light null
+	Bound prop_elecbox_13\prop_elecbox_13.bound
+}

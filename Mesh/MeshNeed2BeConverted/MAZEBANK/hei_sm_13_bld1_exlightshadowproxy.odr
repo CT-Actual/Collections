@@ -1,0 +1,38 @@
+Version 165 32
+{
+	Shaders
+	{
+		normal_spec_detail.sps
+		{
+			DiffuseSampler IM_SM1_13_Wall_01
+			DetailSampler ENV_NOISE_CONCRETE
+			BumpSampler hei_sm_13_bld1_exlightshadowproxy\im_sm1_13_wall_01_n.otx
+			SpecSampler hei_sm_13_bld1_exlightshadowproxy\im_sm1_13_wall_01_s.otx
+			DetailSettings 0.50000000 0.20000000 9.00000000 9.00000000
+			UseTessellation 0.00000000
+			Bumpiness 0.30000000
+			SpecMapIntMask 0.00000000 0.00000000 1.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 50.00000000
+			SpecularFresnel 0.80000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		Center -3.78308100 -0.00003100 1.44696800
+		Radius 55.53019000
+		AABBMin -28.00659000 -24.22357000 -42.25708000
+		AABBMax 20.44043000 24.22351000 45.15102000
+		High 9998.00000000
+		{
+			hei_sm_13_bld1_exlightshadowproxy\hei_sm_13_bld1_exlightshadowproxy_high.mesh 0
+		}
+		Med 9998.00000000
+		Low 9998.00000000
+		Vlow 9998.00000000
+	}
+	Joints null
+	Light null
+	Bound null
+}

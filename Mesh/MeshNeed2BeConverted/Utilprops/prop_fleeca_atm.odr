@@ -1,0 +1,73 @@
+Version 165 32
+{
+	Shaders
+	{
+		default_spec.sps
+		{
+			DiffuseSampler prop_fleeca_atm\prop_fleece_atm.otx
+			UseTessellation 0.00000000
+			SpecularIntensityMult 0.12500000
+			SpecularFalloffMult 100.00000000
+			SpecularFresnel 0.75000000
+		}
+		default_spec.sps
+		{
+			DiffuseSampler prop_fleeca_atm\prop_chrome_dirty_03.otx
+			UseTessellation 0.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 60.00000000
+			SpecularFresnel 0.70000000
+		}
+		emissive.sps
+		{
+			DiffuseSampler prop_fleeca_atm\prop_fleece_emis.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			EmissiveMultiplier 1.00000000
+		}
+		normal_spec_tnt.sps
+		{
+			DiffuseSampler prop_fleeca_atm\prop_chrome_dirty_02.otx
+			TintPaletteSampler prop_fleeca_atm\prop_fleeca_atm_pal.otx
+			BumpSampler prop_fleeca_atm\prop_glass_n.otx
+			SpecSampler prop_fleeca_atm\prop_chrome_dirty_02.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 60.00000000
+			SpecularFresnel 0.70000000
+			TintPaletteSelector 0.00000000 0.00000000
+		}
+		default_tnt.sps
+		{
+			DiffuseSampler prop_fleeca_atm\prop_chrome_dirty_02.otx
+			TintPaletteSampler prop_fleeca_atm\prop_fleeca_atm_l1_pal.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			TintPaletteSelector 0.00000000 0.00000000
+		}
+	}
+	Skeleton prop_fleeca_atm\prop_fleeca_atm.skel
+	LodGroup
+	{
+		Center -0.00427200 -0.01498500 1.29059400
+		Radius 1.16958400
+		AABBMin -0.66020200 -0.16565500 0.33404700
+		AABBMax 0.65165700 0.13568500 2.24714000
+		High 40.00000000
+		{
+			prop_fleeca_atm\prop_fleeca_atm_high.mesh 0
+		}
+		Med 9998.00000000
+		{
+			prop_fleeca_atm\prop_fleeca_atm_med.mesh 0
+		}
+		Low 9998.00000000
+		Vlow 9998.00000000
+	}
+	Joints null
+	Light prop_fleeca_atm\prop_fleeca_atm.light
+	Bound prop_fleeca_atm\prop_fleeca_atm.bound
+}

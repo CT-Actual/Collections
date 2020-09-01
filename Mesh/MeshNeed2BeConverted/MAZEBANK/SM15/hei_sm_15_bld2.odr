@@ -1,0 +1,164 @@
+Version 165 32
+{
+	Shaders
+	{
+		normal_spec.sps
+		{
+			DiffuseSampler hei_sm_15_bld2\os_ml_bhcon_0001_ql.otx
+			BumpSampler hei_sm_15_bld2\os_ml_bhcon_0001_n.otx
+			SpecSampler hei_sm_15_bld2\os_ml_bhcon_0001_s.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			WetnessMultiplier 0.30000000
+			Bumpiness 1.00000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 0.30000000
+			SpecularFalloffMult 20.00000000
+			SpecularFresnel 0.80000000
+		}
+		normal_spec_detail.sps
+		{
+			DiffuseSampler hei_sm_15_bld2\sm1_15_rsn_ql_wall_0001.otx
+			DetailSampler ENV_NOISE_CONCRETE
+			BumpSampler hei_sm_15_bld2\sm1_15_rsn_ql_wall_0001_n.otx
+			SpecSampler hei_sm_15_bld2\sm1_15_rsn_ql_wall_0001_s.otx
+			DetailSettings 0.60000000 0.25000000 6.00000000 6.00000000
+			UseTessellation 0.00000000
+			Bumpiness 0.60000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 0.65000000
+			SpecularFalloffMult 192.00000000
+			SpecularFresnel 0.32800000
+		}
+		emissive.sps
+		{
+			DiffuseSampler hei_sm_15_bld2\im_interiorfake_night_01.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			EmissiveMultiplier 0.50000000
+		}
+		normal_cutout.sps
+		{
+			DiffuseSampler hei_sm_15_bld2\dc_treadmesh_0001dc_treadmesh_0001_a.otx
+			BumpSampler hei_sm_15_bld2\dc_treadmesh_0001_n.otx
+			HardAlphaBlend 0.10000000
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecularIntensityMult 0.12500000
+			SpecularFalloffMult 100.00000000
+			SpecularFresnel 0.75000000
+		}
+		default_detail.sps
+		{
+			DiffuseSampler hei_sm_15_bld2\im_wall_plaster39.otx
+			DetailSampler ENV_NOISE_CONCRETE
+			DetailSettings 0.60000000 0.25000000 6.00000000 6.00000000
+			UseTessellation 0.00000000
+			WetnessMultiplier 0.05500000
+		}
+		default.sps
+		{
+			DiffuseSampler hei_sm_15_bld2\sm1_15_rsn_tpage2.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			WetnessMultiplier 0.06000000
+		}
+		default.sps
+		{
+			DiffuseSampler sm_19_sjm_newalleytpage1
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+		}
+		default.sps
+		{
+			DiffuseSampler hei_sm_15_bld2\sm1_15_rsn_tpage4.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+		}
+		default.sps
+		{
+			DiffuseSampler hei_sm_15_bld2\sm1_15_rsn_tpage5.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			WetnessMultiplier 0.30000000
+		}
+		default.sps
+		{
+			DiffuseSampler hei_sm_15_bld2\sm1_15_rsn_tpage3.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			WetnessMultiplier 0.30000000
+		}
+		normal_spec_tnt.sps
+		{
+			DiffuseSampler hei_sm_15_bld2\rsn_dc_walltiles_0004.otx
+			TintPaletteSampler hei_sm_15_bld2\sm_15_bld2_pal.otx
+			BumpSampler hei_sm_15_bld2\rsn_dc_walltiles_0003_n.otx
+			SpecSampler hei_sm_15_bld2\rsn_dc_walltiles_0003_s.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 0.95000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 0.75000000
+			SpecularFalloffMult 150.00000000
+			SpecularFresnel 0.85000000
+			TintPaletteSelector 0.00000000 0.00000000
+		}
+		normal_spec.sps
+		{
+			DiffuseSampler hei_sm_15_bld2\im_metaldoor02.otx
+			BumpSampler hei_sm_15_bld2\im_metaldoor02_n.otx
+			SpecSampler hei_sm_15_bld2\im_metaldoor02_s.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 0.12500000
+			SpecularFalloffMult 100.00000000
+			SpecularFresnel 0.75000000
+		}
+		glass_pv_env.sps
+		{
+			DiffuseSampler hei_sm_15_bld2\mc_window_0004.otx
+			DecalTint 1.00000000 1.00000000 1.00000000 1.00000000
+			BrokenSpecularColor 0.46000000 0.61176500 0.61176500 1.00000000
+			BrokenDiffuseColor 0.46000000 0.61176500 0.61176500 0.56862700
+			UseTessellation 0.00000000
+			SpecularIntensityMult 0.30000000
+			SpecularFalloffMult 150.00000000
+			SpecularFresnel 0.85000000
+		}
+		emissivenight.sps
+		{
+			DiffuseSampler hei_sm_15_bld2\sm1_15_rsn_tpage5.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			EmissiveMultiplier 5.00000000
+		}
+		emissivenight.sps
+		{
+			DiffuseSampler hei_sm_15_bld2\im_interiorfake_night_01.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			EmissiveMultiplier 6.00000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		Center -0.00006100 8.34091200 0.41939700
+		Radius 64.73395000
+		AABBMin -46.31348000 -26.26147000 -28.70493000
+		AABBMax 46.31335000 42.94330000 29.54372000
+		High 9998.00000000
+		{
+			hei_sm_15_bld2\hei_sm_15_bld2_high.mesh 0
+		}
+		Med 9998.00000000
+		Low 9998.00000000
+		Vlow 9998.00000000
+	}
+	Joints null
+	Light hei_sm_15_bld2\hei_sm_15_bld2.light
+	Bound null
+}

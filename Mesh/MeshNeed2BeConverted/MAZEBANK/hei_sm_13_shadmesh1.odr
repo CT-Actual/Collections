@@ -1,0 +1,28 @@
+Version 165 32
+{
+	Shaders
+	{
+		cpv_only.sps
+		{
+			UseTessellation 0.00000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		Center 17.92407000 2.40148900 4.03249500
+		Radius 71.47362000
+		AABBMin -33.52698000 -46.71802000 -2.93474600
+		AABBMax 69.37512000 51.52099000 10.99974000
+		High 9998.00000000
+		{
+			hei_sm_13_shadmesh1\hei_sm_13_shadmesh1_high.mesh 0
+		}
+		Med 9998.00000000
+		Low 9998.00000000
+		Vlow 9998.00000000
+	}
+	Joints null
+	Light null
+	Bound null
+}

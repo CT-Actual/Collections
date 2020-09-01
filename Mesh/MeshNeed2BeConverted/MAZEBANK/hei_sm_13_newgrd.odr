@@ -1,0 +1,222 @@
+Version 165 32
+{
+	Shaders
+	{
+		grass_fur.sps
+		{
+			DiffuseSampler im_grass11b_fur
+			BumpSampler im_grass07b_furgrass_01_N
+			SpecSampler im_grass11b_AM_S
+			ComboHeightSamplerFur01 fur_grass_rgba4_0
+			ComboHeightSamplerFur23 fur_grass_rgba4_1
+			ComboHeightSamplerFur45 fur_grass_rgba4_2
+			ComboHeightSamplerFur67 fur_grass_rgba4_3
+			FurShadow47 0.78431400 0.86274500 0.93333300 1.00000000
+			FurShadow03 0.35294100 0.46274500 0.58039200 0.65882400
+			FurAlphaClip47 0.07843100 0.09803900 0.11764700 0.13333300
+			FurAlphaClip03 0.00000000 0.03921600 0.03921600 0.05882400
+			FurAlphaDistance 15.00000000 25.00000000
+			FurUvScales 1.00000000 1.50000000 0.70000000 1.00000000
+			FurLayerParams 0.00500000 0.00100000 0.00100000 0.70999990
+			UseTessellation 0.00000000
+			Bumpiness 1.50000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 0.65000000
+			SpecularFalloffMult 10.00000000
+			SpecularFresnel 0.99000000
+		}
+		normal.sps
+		{
+			DiffuseSampler im_grass11B
+			BumpSampler im_grass07_n
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			WetnessMultiplier 0.05500000
+			Bumpiness 1.00000000
+			SpecularIntensityMult 0.05000000
+			SpecularFalloffMult 5.00000000
+			SpecularFresnel 0.97000000
+		}
+		normal_spec_detail.sps
+		{
+			DiffuseSampler DC_Road_002
+			DetailSampler ENV_NOISE_CONCRETE
+			BumpSampler DC_Road_002_N
+			SpecSampler DC_Road_002_S
+			DetailSettings 0.60000000 0.25000000 6.00000000 6.00000000
+			UseTessellation 0.00000000
+			WetnessMultiplier 0.30000000
+			Bumpiness 0.60000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 0.30000000
+			SpecularFalloffMult 20.00000000
+			SpecularFresnel 1.00000000
+		}
+		normal_spec.sps
+		{
+			DiffuseSampler hei_sm_13_newgrd\dt1_03_rsn_mc_ground_0002.otx
+			BumpSampler hei_sm_13_newgrd\dt1_03_rsn_mc_ground_0002_n.otx
+			SpecSampler hei_sm_13_newgrd\dt1_03_rsn_mc_ground_0002_s.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			WetnessMultiplier 0.30000000
+			Bumpiness 1.25000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 0.12500000
+			SpecularFalloffMult 80.00000000
+			SpecularFresnel 0.35000000
+		}
+		normal_spec.sps
+		{
+			DiffuseSampler hei_sm_13_newgrd\sc1_rsn_ns_ground_0010.otx
+			BumpSampler SC1_RSN_NS_ground_0010_N
+			SpecSampler hei_sm_13_newgrd\sc1_rsn_ns_ground_0010_s.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			WetnessMultiplier 0.05500000
+			Bumpiness 0.60000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 0.20000000
+			SpecularFalloffMult 30.00000000
+			SpecularFresnel 0.60000000
+		}
+		normal_spec.sps
+		{
+			DiffuseSampler hei_sm_13_newgrd\sm_13_rsd_dr_wall_01c.otx
+			BumpSampler hei_sm_13_newgrd\sm_13_rsd_dr_wall_01b_n.otx
+			SpecSampler hei_sm_13_newgrd\sm_13_rsd_dr_wall_01c_s.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 0.70000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 0.12500000
+			SpecularFalloffMult 30.00000000
+			SpecularFresnel 0.60000000
+		}
+		normal_spec.sps
+		{
+			DiffuseSampler hei_sm_13_newgrd\mc_wall_0001.otx
+			BumpSampler hei_sm_13_newgrd\mc_wall_0001_n.otx
+			SpecSampler hei_sm_13_newgrd\mc_wall_0001_s.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 0.30000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 0.12500000
+			SpecularFalloffMult 100.00000000
+			SpecularFresnel 0.75000000
+		}
+		normal_spec.sps
+		{
+			DiffuseSampler hei_sm_13_newgrd\sm_13_rnbj_tilenew_01.otx
+			BumpSampler hei_sm_13_newgrd\sm_13_rnbj_tilenew_01_n.otx
+			SpecSampler hei_sm_13_newgrd\sm_13_rnbj_tilenew_01_s.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 0.60000000
+			SpecularFalloffMult 280.00000000
+			SpecularFresnel 0.97000000
+		}
+		spec_const.sps
+		{
+			DiffuseSampler hei_sm_13_newgrd\sm_13_rsn_rls_darkmetal_0001.otx
+			UseTessellation 0.00000000
+			SpecularIntensityMult 0.40000000
+			SpecularFalloffMult 150.00000000
+			SpecularFresnel 0.80000000
+		}
+		normal_spec.sps
+		{
+			DiffuseSampler hei_sm_13_newgrd\bh1_08_rsn_rls_ground_0001.otx
+			BumpSampler hei_sm_13_newgrd\mc_ground_0003_n.otx
+			SpecSampler hei_sm_13_newgrd\mc_ground_0003_s.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			WetnessMultiplier 0.30000000
+			Bumpiness 1.25000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 0.12500000
+			SpecularFalloffMult 80.00000000
+			SpecularFresnel 0.35000000
+		}
+		normal_spec.sps
+		{
+			DiffuseSampler hei_sm_13_newgrd\sm_13_rsn_rls_groundtrim_0001.otx
+			BumpSampler hei_sm_13_newgrd\bh1_08_rsn_rls_groundtrim_0001_n.otx
+			SpecSampler hei_sm_13_newgrd\bh1_08_rsn_rls_groundtrim_0001_s.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			WetnessMultiplier 0.30000000
+			Bumpiness 1.50000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 0.30000000
+			SpecularFalloffMult 60.00000000
+			SpecularFresnel 0.70000000
+		}
+		default.sps
+		{
+			DiffuseSampler hei_sm_13_newgrd\im_grass04.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			WetnessMultiplier 0.05500000
+		}
+		default.sps
+		{
+			DiffuseSampler sm_13_rsn_sjmtpage5
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+		}
+		default.sps
+		{
+			DiffuseSampler hei_sm_13_newgrd\sm_13_rsn_sjmtpage4.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+		}
+		default.sps
+		{
+			DiffuseSampler hei_sm_13_newgrd\sm_13_rsn_sjmtpage3.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			WetnessMultiplier 0.05500000
+		}
+		normal_spec.sps
+		{
+			DiffuseSampler RSN_AM_Hedge_02
+			BumpSampler RSN_AM_Hedge_02_N
+			SpecSampler RSN_AM_Hedge_02_S
+			HardAlphaBlend 0.01000000
+			UseTessellation 0.00000000
+			Bumpiness 0.90000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 0.50000000
+			SpecularFalloffMult 32.00000000
+			SpecularFresnel 0.85000000
+		}
+		cutout.sps
+		{
+			DiffuseSampler hei_sm_13_newgrd\sm1_14_rsd_dr_gardoor_01sm1_14_rsd_dr_gardoor_01_a.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		Center 37.69806000 -28.85708000 9.28768800
+		Radius 96.48717000
+		AABBMin -40.72730000 -80.93201000 -11.86508000
+		AABBMax 116.12340000 23.21783000 30.44046000
+		High 9998.00000000
+		{
+			hei_sm_13_newgrd\hei_sm_13_newgrd_high.mesh 0
+		}
+		Med 9998.00000000
+		Low 9998.00000000
+		Vlow 9998.00000000
+	}
+	Joints null
+	Light hei_sm_13_newgrd\hei_sm_13_newgrd.light
+	Bound null
+}

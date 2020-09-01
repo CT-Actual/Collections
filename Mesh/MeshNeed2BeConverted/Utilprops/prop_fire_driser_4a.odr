@@ -1,0 +1,46 @@
+Version 165 32
+{
+	Shaders
+	{
+		normal_spec.sps
+		{
+			DiffuseSampler prop_fire_driser_4a\prop_fire_driser_4a.otx
+			BumpSampler prop_fire_driser_4a\prop_fire_driser_4a_n.otx
+			SpecSampler prop_fire_driser_4a\prop_fire_driser_4a_s.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 2.00000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 5.10000000
+			SpecularFresnel 0.90000000
+		}
+		default.sps
+		{
+			DiffuseSampler prop_fire_driser_4a\prop_fire_driser_4a.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		Center 0.00000000 -0.16893300 0.11176000
+		Radius 0.57589600
+		AABBMin -0.42704800 -0.34198900 -0.23369300
+		AABBMax 0.42704800 0.00412400 0.45721200
+		High 30.00000000
+		{
+			prop_fire_driser_4a\prop_fire_driser_4a_high.mesh 0
+		}
+		Med 9998.00000000
+		{
+			prop_fire_driser_4a\prop_fire_driser_4a_med.mesh 0
+		}
+		Low 9998.00000000
+		Vlow 9998.00000000
+	}
+	Joints null
+	Light null
+	Bound prop_fire_driser_4a\prop_fire_driser_4a.bound
+}

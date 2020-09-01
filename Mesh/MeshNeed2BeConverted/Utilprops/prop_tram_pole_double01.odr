@@ -1,0 +1,53 @@
+Version 165 32
+{
+	Shaders
+	{
+		spec.sps
+		{
+			DiffuseSampler Prop_Tram_pole
+			SpecSampler Prop_Tram_pole_s
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 5.00000000
+			SpecularFresnel 0.80000000
+		}
+		default.sps
+		{
+			DiffuseSampler Prop_Tram_pole
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+		}
+		cutout.sps
+		{
+			DiffuseSampler prop_tram_pole_LODprop_traffic_01_lod_a
+			HardAlphaBlend 0.00000000
+			UseTessellation 0.00000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		Center 0.00000000 -0.00159900 4.12391700
+		Radius 6.42038300
+		AABBMin -0.28478200 -4.61678800 -0.33032200
+		AABBMax 0.28478200 4.61359000 8.57815700
+		High 25.00000000
+		{
+			prop_tram_pole_double01\prop_tram_pole_double01_high.mesh 0
+		}
+		Med 85.00000000
+		{
+			prop_tram_pole_double01\prop_tram_pole_double01_med.mesh 0
+		}
+		Low 9998.00000000
+		{
+			prop_tram_pole_double01\prop_tram_pole_double01_low.mesh 0
+		}
+		Vlow 9998.00000000
+	}
+	Joints null
+	Light null
+	Bound prop_tram_pole_double01\prop_tram_pole_double01.bound
+}

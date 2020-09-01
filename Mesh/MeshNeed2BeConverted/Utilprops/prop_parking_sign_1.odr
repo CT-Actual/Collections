@@ -1,0 +1,35 @@
+Version 165 32
+{
+	Shaders
+	{
+		spec.sps
+		{
+			DiffuseSampler prop_parking_sign_1\prop_roadcone01a.otx
+			SpecSampler prop_parking_sign_1\prop_roadcone01a_s.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 5.50000000
+			SpecularFresnel 0.91000000
+		}
+	}
+	Skeleton prop_parking_sign_1\prop_parking_sign_1.skel
+	LodGroup
+	{
+		Center 0.00000000 0.00000000 0.45313300
+		Radius 0.51453400
+		AABBMin -0.18052700 -0.18054200 0.00641100
+		AABBMax 0.18052700 0.18054200 0.89985400
+		High 9998.00000000
+		{
+			prop_parking_sign_1\prop_parking_sign_1_high.mesh 0
+		}
+		Med 9998.00000000
+		Low 9998.00000000
+		Vlow 9998.00000000
+	}
+	Joints null
+	Light null
+	Bound prop_parking_sign_1\prop_parking_sign_1.bound
+}

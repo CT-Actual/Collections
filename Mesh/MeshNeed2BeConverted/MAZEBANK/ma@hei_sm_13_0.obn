@@ -1,0 +1,3787 @@
+Version 43 31
+{
+	Type BoundComposite
+	Radius 82.04308000
+	AABBMax -1477.14000000 -537.81280000 34.66665000
+	AABBMin -1609.48800000 -634.01240000 22.26975000
+	Centroid -1543.31400000 -585.91260000 28.46820000
+	CG -1543.31400000 -585.91260000 28.46819000
+	Children 1
+	{
+		phBound
+		{
+			Type BoundBVH
+			Radius 66.56984000
+			AABBMax -1477.14000000 -537.81280000 34.66665000
+			AABBMin -1609.48800000 -634.01240000 22.26975000
+			Centroid -1543.31200000 -589.21980000 31.36700000
+			CG -1543.31400000 -585.91260000 28.46819000
+			Polygons 530
+			{
+				Tri 0
+				{
+					Vertices 355 353 356
+					Siblings -1 1 -1
+					MaterialIndex 2
+				}
+				Tri 1
+				{
+					Vertices 354 356 353
+					Siblings -1 0 2
+					MaterialIndex 2
+				}
+				Tri 2
+				{
+					Vertices 353 351 354
+					Siblings -1 3 1
+					MaterialIndex 2
+				}
+				Tri 3
+				{
+					Vertices 352 354 351
+					Siblings -1 2 4
+					MaterialIndex 2
+				}
+				Tri 4
+				{
+					Vertices 351 349 352
+					Siblings -1 5 3
+					MaterialIndex 2
+				}
+				Tri 5
+				{
+					Vertices 350 352 349
+					Siblings -1 4 6
+					MaterialIndex 2
+				}
+				Tri 6
+				{
+					Vertices 349 345 350
+					Siblings -1 7 5
+					MaterialIndex 2
+				}
+				Tri 7
+				{
+					Vertices 347 350 345
+					Siblings -1 6 8
+					MaterialIndex 2
+				}
+				Tri 8
+				{
+					Vertices 345 346 347
+					Siblings -1 9 7
+					MaterialIndex 2
+				}
+				Tri 9
+				{
+					Vertices 348 347 346
+					Siblings -1 8 10
+					MaterialIndex 2
+				}
+				Tri 10
+				{
+					Vertices 346 431 348
+					Siblings -1 11 9
+					MaterialIndex 2
+				}
+				Tri 11
+				{
+					Vertices 430 348 431
+					Siblings -1 10 12
+					MaterialIndex 2
+				}
+				Tri 12
+				{
+					Vertices 431 433 430
+					Siblings -1 13 11
+					MaterialIndex 2
+				}
+				Tri 13
+				{
+					Vertices 432 430 433
+					Siblings -1 12 22
+					MaterialIndex 2
+				}
+				Tri 14
+				{
+					Vertices 449 450 447
+					Siblings -1 15 -1
+					MaterialIndex 2
+				}
+				Tri 15
+				{
+					Vertices 448 447 450
+					Siblings 16 14 -1
+					MaterialIndex 2
+				}
+				Tri 16
+				{
+					Vertices 448 446 447
+					Siblings -1 17 15
+					MaterialIndex 2
+				}
+				Tri 17
+				{
+					Vertices 445 447 446
+					Siblings -1 16 18
+					MaterialIndex 2
+				}
+				Tri 18
+				{
+					Vertices 445 446 418
+					Siblings 17 19 -1
+					MaterialIndex 2
+				}
+				Tri 19
+				{
+					Vertices 420 418 446
+					Siblings 20 18 -1
+					MaterialIndex 2
+				}
+				Tri 20
+				{
+					Vertices 420 419 418
+					Siblings -1 21 19
+					MaterialIndex 2
+				}
+				Tri 21
+				{
+					Vertices 417 418 419
+					Siblings -1 20 -1
+					MaterialIndex 2
+				}
+				Tri 22
+				{
+					Vertices 433 435 432
+					Siblings -1 23 13
+					MaterialIndex 2
+				}
+				Tri 23
+				{
+					Vertices 434 432 435
+					Siblings -1 22 24
+					MaterialIndex 2
+				}
+				Tri 24
+				{
+					Vertices 435 422 434
+					Siblings -1 25 23
+					MaterialIndex 2
+				}
+				Tri 25
+				{
+					Vertices 421 434 422
+					Siblings -1 24 26
+					MaterialIndex 2
+				}
+				Tri 26
+				{
+					Vertices 421 422 423
+					Siblings 25 27 -1
+					MaterialIndex 2
+				}
+				Tri 27
+				{
+					Vertices 424 423 422
+					Siblings -1 26 -1
+					MaterialIndex 2
+				}
+				Tri 28
+				{
+					Vertices 429 411 410
+					Siblings -1 29 -1
+					MaterialIndex 2
+				}
+				Tri 29
+				{
+					Vertices 409 410 411
+					Siblings 30 28 -1
+					MaterialIndex 2
+				}
+				Tri 30
+				{
+					Vertices 409 394 410
+					Siblings -1 31 29
+					MaterialIndex 2
+				}
+				Tri 31
+				{
+					Vertices 393 410 394
+					Siblings -1 30 32
+					MaterialIndex 2
+				}
+				Tri 32
+				{
+					Vertices 393 394 395
+					Siblings 31 33 37
+					MaterialIndex 2
+				}
+				Tri 33
+				{
+					Vertices 396 395 394
+					Siblings 34 32 -1
+					MaterialIndex 2
+				}
+				Tri 34
+				{
+					Vertices 395 396 399
+					Siblings 33 35 39
+					MaterialIndex 2
+				}
+				Tri 35
+				{
+					Vertices 425 399 396
+					Siblings -1 34 -1
+					MaterialIndex 2
+				}
+				Tri 36
+				{
+					Vertices 416 393 401
+					Siblings -1 37 40
+					MaterialIndex 2
+				}
+				Tri 37
+				{
+					Vertices 395 401 393
+					Siblings 38 36 32
+					MaterialIndex 2
+				}
+				Tri 38
+				{
+					Vertices 401 395 400
+					Siblings 37 39 42
+					MaterialIndex 2
+				}
+				Tri 39
+				{
+					Vertices 399 400 395
+					Siblings -1 38 34
+					MaterialIndex 2
+				}
+				Tri 40
+				{
+					Vertices 416 401 415
+					Siblings 36 41 -1
+					MaterialIndex 2
+				}
+				Tri 41
+				{
+					Vertices 414 415 401
+					Siblings -1 40 42
+					MaterialIndex 2
+				}
+				Tri 42
+				{
+					Vertices 401 400 414
+					Siblings 38 43 41
+					MaterialIndex 2
+				}
+				Tri 43
+				{
+					Vertices 444 414 400
+					Siblings -1 42 -1
+					MaterialIndex 2
+				}
+				Tri 44
+				{
+					Vertices 407 426 390
+					Siblings -1 45 47
+					MaterialIndex 2
+				}
+				Tri 45
+				{
+					Vertices 392 390 426
+					Siblings 48 44 -1
+					MaterialIndex 2
+				}
+				Tri 46
+				{
+					Vertices 408 407 398
+					Siblings -1 47 -1
+					MaterialIndex 2
+				}
+				Tri 47
+				{
+					Vertices 390 398 407
+					Siblings 50 46 44
+					MaterialIndex 2
+				}
+				Tri 48
+				{
+					Vertices 392 391 390
+					Siblings -1 49 45
+					MaterialIndex 2
+				}
+				Tri 49
+				{
+					Vertices 389 390 391
+					Siblings 50 48 52
+					MaterialIndex 2
+				}
+				Tri 50
+				{
+					Vertices 390 389 398
+					Siblings 49 51 47
+					MaterialIndex 2
+				}
+				Tri 51
+				{
+					Vertices 397 398 389
+					Siblings -1 50 56
+					MaterialIndex 2
+				}
+				Tri 52
+				{
+					Vertices 389 391 388
+					Siblings 49 53 57
+					MaterialIndex 2
+				}
+				Tri 53
+				{
+					Vertices 386 388 391
+					Siblings 54 52 -1
+					MaterialIndex 2
+				}
+				Tri 54
+				{
+					Vertices 386 387 388
+					Siblings -1 55 53
+					MaterialIndex 2
+				}
+				Tri 55
+				{
+					Vertices 442 388 387
+					Siblings 58 54 -1
+					MaterialIndex 2
+				}
+				Tri 56
+				{
+					Vertices 397 389 402
+					Siblings 51 57 -1
+					MaterialIndex 2
+				}
+				Tri 57
+				{
+					Vertices 388 402 389
+					Siblings 58 56 52
+					MaterialIndex 2
+				}
+				Tri 58
+				{
+					Vertices 388 442 402
+					Siblings 55 59 57
+					MaterialIndex 2
+				}
+				Tri 59
+				{
+					Vertices 443 402 442
+					Siblings -1 58 -1
+					MaterialIndex 2
+				}
+				Tri 60
+				{
+					Vertices 428 404 427
+					Siblings -1 61 -1
+					MaterialIndex 2
+				}
+				Tri 61
+				{
+					Vertices 403 427 404
+					Siblings -1 60 62
+					MaterialIndex 2
+				}
+				Tri 62
+				{
+					Vertices 403 404 405
+					Siblings 61 63 -1
+					MaterialIndex 2
+				}
+				Tri 63
+				{
+					Vertices 406 405 404
+					Siblings 64 62 -1
+					MaterialIndex 2
+				}
+				Tri 64
+				{
+					Vertices 405 406 413
+					Siblings 63 65 -1
+					MaterialIndex 2
+				}
+				Tri 65
+				{
+					Vertices 412 413 406
+					Siblings -1 64 -1
+					MaterialIndex 2
+				}
+				Tri 66
+				{
+					Vertices 360 452 359
+					Siblings -1 67 68
+					MaterialIndex 2
+				}
+				Tri 67
+				{
+					Vertices 451 359 452
+					Siblings -1 66 -1
+					MaterialIndex 2
+				}
+				Tri 68
+				{
+					Vertices 360 359 358
+					Siblings 66 69 -1
+					MaterialIndex 2
+				}
+				Tri 69
+				{
+					Vertices 357 358 359
+					Siblings 70 68 -1
+					MaterialIndex 2
+				}
+				Tri 70
+				{
+					Vertices 358 357 362
+					Siblings 69 71 -1
+					MaterialIndex 2
+				}
+				Tri 71
+				{
+					Vertices 361 362 357
+					Siblings 73 70 -1
+					MaterialIndex 2
+				}
+				Tri 72
+				{
+					Vertices 441 362 440
+					Siblings -1 73 75
+					MaterialIndex 2
+				}
+				Tri 73
+				{
+					Vertices 361 440 362
+					Siblings -1 72 71
+					MaterialIndex 2
+				}
+				Tri 74
+				{
+					Vertices 438 441 439
+					Siblings -1 75 77
+					MaterialIndex 2
+				}
+				Tri 75
+				{
+					Vertices 440 439 441
+					Siblings -1 74 72
+					MaterialIndex 2
+				}
+				Tri 76
+				{
+					Vertices 366 438 365
+					Siblings -1 77 78
+					MaterialIndex 2
+				}
+				Tri 77
+				{
+					Vertices 439 365 438
+					Siblings -1 76 74
+					MaterialIndex 2
+				}
+				Tri 78
+				{
+					Vertices 366 365 364
+					Siblings 76 79 -1
+					MaterialIndex 2
+				}
+				Tri 79
+				{
+					Vertices 363 364 365
+					Siblings 81 78 -1
+					MaterialIndex 2
+				}
+				Tri 80
+				{
+					Vertices 437 364 436
+					Siblings -1 81 -1
+					MaterialIndex 2
+				}
+				Tri 81
+				{
+					Vertices 363 436 364
+					Siblings -1 80 79
+					MaterialIndex 2
+				}
+				Tri 82
+				{
+					Vertices 235 238 233
+					Siblings -1 83 86
+					MaterialIndex 2
+				}
+				Tri 83
+				{
+					Vertices 237 233 238
+					Siblings 132 82 84
+					MaterialIndex 2
+				}
+				Tri 84
+				{
+					Vertices 237 238 228
+					Siblings 83 117 130
+					MaterialIndex 2
+				}
+				Tri 85
+				{
+					Vertices 236 235 234
+					Siblings -1 86 -1
+					MaterialIndex 2
+				}
+				Tri 86
+				{
+					Vertices 233 234 235
+					Siblings 131 85 82
+					MaterialIndex 2
+				}
+				Tri 87
+				{
+					Vertices 262 343 263
+					Siblings -1 88 91
+					MaterialIndex 1
+				}
+				Tri 88
+				{
+					Vertices 344 263 343
+					Siblings 136 87 -1
+					MaterialIndex 1
+				}
+				Tri 89
+				{
+					Vertices 256 262 257
+					Siblings -1 91 90
+					MaterialIndex 1
+				}
+				Tri 90
+				{
+					Vertices 256 257 258
+					Siblings 89 94 -1
+					MaterialIndex 1
+				}
+				Tri 91
+				{
+					Vertices 263 257 262
+					Siblings 135 89 87
+					MaterialIndex 1
+				}
+				Tri 92
+				{
+					Vertices 260 258 261
+					Siblings -1 93 96
+					MaterialIndex 1
+				}
+				Tri 93
+				{
+					Vertices 259 261 258
+					Siblings -1 92 94
+					MaterialIndex 1
+				}
+				Tri 94
+				{
+					Vertices 259 258 257
+					Siblings 93 90 -1
+					MaterialIndex 1
+				}
+				Tri 95
+				{
+					Vertices 248 260 249
+					Siblings -1 96 97
+					MaterialIndex 1
+				}
+				Tri 96
+				{
+					Vertices 261 249 260
+					Siblings -1 95 92
+					MaterialIndex 1
+				}
+				Tri 97
+				{
+					Vertices 248 249 250
+					Siblings 95 98 -1
+					MaterialIndex 1
+				}
+				Tri 98
+				{
+					Vertices 251 250 249
+					Siblings 100 97 -1
+					MaterialIndex 1
+				}
+				Tri 99
+				{
+					Vertices 253 250 255
+					Siblings -1 100 102
+					MaterialIndex 1
+				}
+				Tri 100
+				{
+					Vertices 251 255 250
+					Siblings -1 99 98
+					MaterialIndex 1
+				}
+				Tri 101
+				{
+					Vertices 252 253 254
+					Siblings -1 102 -1
+					MaterialIndex 1
+				}
+				Tri 102
+				{
+					Vertices 255 254 253
+					Siblings -1 101 99
+					MaterialIndex 1
+				}
+				Tri 103
+				{
+					Vertices 175 240 174
+					Siblings -1 104 105
+					MaterialIndex 2
+				}
+				Tri 104
+				{
+					Vertices 241 174 240
+					Siblings 121 103 -1
+					MaterialIndex 2
+				}
+				Tri 105
+				{
+					Vertices 175 174 173
+					Siblings 103 107 -1
+					MaterialIndex 2
+				}
+				Tri 106
+				{
+					Vertices 172 239 173
+					Siblings 123 108 107
+					MaterialIndex 2
+				}
+				Tri 107
+				{
+					Vertices 172 173 174
+					Siblings 106 105 124
+					MaterialIndex 2
+				}
+				Tri 108
+				{
+					Vertices 170 173 239
+					Siblings -1 106 109
+					MaterialIndex 2
+				}
+				Tri 109
+				{
+					Vertices 239 171 170
+					Siblings 125 110 108
+					MaterialIndex 2
+				}
+				Tri 110
+				{
+					Vertices 169 170 171
+					Siblings -1 109 111
+					MaterialIndex 2
+				}
+				Tri 111
+				{
+					Vertices 169 171 232
+					Siblings 110 114 -1
+					MaterialIndex 2
+				}
+				Tri 112
+				{
+					Vertices 229 232 227
+					Siblings -1 113 116
+					MaterialIndex 2
+				}
+				Tri 113
+				{
+					Vertices 231 227 232
+					Siblings 129 112 114
+					MaterialIndex 2
+				}
+				Tri 114
+				{
+					Vertices 231 232 171
+					Siblings 113 111 126
+					MaterialIndex 2
+				}
+				Tri 115
+				{
+					Vertices 230 229 228
+					Siblings -1 116 117
+					MaterialIndex 2
+				}
+				Tri 116
+				{
+					Vertices 227 228 229
+					Siblings 128 115 112
+					MaterialIndex 2
+				}
+				Tri 117
+				{
+					Vertices 230 228 238
+					Siblings 115 84 -1
+					MaterialIndex 2
+				}
+				Tri 118
+				{
+					Vertices 514 515 368
+					Siblings -1 -1 120
+					MaterialIndex 2
+				}
+				Tri 119
+				{
+					Vertices 241 367 368
+					Siblings -1 120 121
+					MaterialIndex 2
+				}
+				Tri 120
+				{
+					Vertices 367 514 368
+					Siblings -1 118 119
+					MaterialIndex 2
+				}
+				Tri 121
+				{
+					Vertices 174 241 368
+					Siblings 104 119 122
+					MaterialIndex 2
+				}
+				Tri 122
+				{
+					Vertices 174 368 369
+					Siblings 121 -1 124
+					MaterialIndex 2
+				}
+				Tri 123
+				{
+					Vertices 239 172 369
+					Siblings 106 124 125
+					MaterialIndex 2
+				}
+				Tri 124
+				{
+					Vertices 172 174 369
+					Siblings 107 122 123
+					MaterialIndex 2
+				}
+				Tri 125
+				{
+					Vertices 171 239 369
+					Siblings 109 123 127
+					MaterialIndex 2
+				}
+				Tri 126
+				{
+					Vertices 231 171 370
+					Siblings 114 127 129
+					MaterialIndex 2
+				}
+				Tri 127
+				{
+					Vertices 171 369 370
+					Siblings 125 -1 126
+					MaterialIndex 2
+				}
+				Tri 128
+				{
+					Vertices 228 227 370
+					Siblings 116 129 133
+					MaterialIndex 2
+				}
+				Tri 129
+				{
+					Vertices 227 231 370
+					Siblings 113 126 128
+					MaterialIndex 2
+				}
+				Tri 130
+				{
+					Vertices 237 228 371
+					Siblings 84 133 132
+					MaterialIndex 2
+				}
+				Tri 131
+				{
+					Vertices 234 233 371
+					Siblings 86 132 137
+					MaterialIndex 2
+				}
+				Tri 132
+				{
+					Vertices 233 237 371
+					Siblings 83 130 131
+					MaterialIndex 2
+				}
+				Tri 133
+				{
+					Vertices 228 370 371
+					Siblings 128 -1 130
+					MaterialIndex 2
+				}
+				Tri 134
+				{
+					Vertices 344 234 372
+					Siblings -1 137 136
+					MaterialIndex 2
+				}
+				Tri 135
+				{
+					Vertices 257 263 372
+					Siblings 91 136 -1
+					MaterialIndex 2
+				}
+				Tri 136
+				{
+					Vertices 263 344 372
+					Siblings 88 134 135
+					MaterialIndex 2
+				}
+				Tri 137
+				{
+					Vertices 234 371 372
+					Siblings 131 -1 134
+					MaterialIndex 2
+				}
+				Tri 138
+				{
+					Vertices 183 182 181
+					Siblings -1 139 -1
+					MaterialIndex 1
+				}
+				Tri 139
+				{
+					Vertices 180 181 182
+					Siblings 140 138 147
+					MaterialIndex 1
+				}
+				Tri 140
+				{
+					Vertices 180 176 181
+					Siblings 150 142 139
+					MaterialIndex 1
+				}
+				Tri 141
+				{
+					Vertices 176 177 178
+					Siblings 149 143 142
+					MaterialIndex 1
+				}
+				Tri 142
+				{
+					Vertices 178 181 176
+					Siblings -1 140 141
+					MaterialIndex 1
+				}
+				Tri 143
+				{
+					Vertices 179 178 177
+					Siblings -1 141 144
+					MaterialIndex 1
+				}
+				Tri 144
+				{
+					Vertices 179 177 189
+					Siblings 143 146 -1
+					MaterialIndex 1
+				}
+				Tri 145
+				{
+					Vertices 188 184 189
+					Siblings 161 152 146
+					MaterialIndex 1
+				}
+				Tri 146
+				{
+					Vertices 188 189 177
+					Siblings 145 144 162
+					MaterialIndex 1
+				}
+				Tri 147
+				{
+					Vertices 180 182 518
+					Siblings 139 148 150
+					MaterialIndex 1
+				}
+				Tri 148
+				{
+					Vertices 182 519 518
+					Siblings -1 -1 147
+					MaterialIndex 1
+				}
+				Tri 149
+				{
+					Vertices 177 176 518
+					Siblings 141 150 151
+					MaterialIndex 1
+				}
+				Tri 150
+				{
+					Vertices 176 180 518
+					Siblings 140 147 149
+					MaterialIndex 1
+				}
+				Tri 151
+				{
+					Vertices 177 518 517
+					Siblings 149 -1 162
+					MaterialIndex 1
+				}
+				Tri 152
+				{
+					Vertices 186 189 184
+					Siblings -1 145 153
+					MaterialIndex 1
+				}
+				Tri 153
+				{
+					Vertices 184 185 186
+					Siblings 163 154 152
+					MaterialIndex 1
+				}
+				Tri 154
+				{
+					Vertices 187 186 185
+					Siblings -1 153 155
+					MaterialIndex 1
+				}
+				Tri 155
+				{
+					Vertices 187 185 246
+					Siblings 154 157 -1
+					MaterialIndex 1
+				}
+				Tri 156
+				{
+					Vertices 247 245 246
+					Siblings 165 158 157
+					MaterialIndex 1
+				}
+				Tri 157
+				{
+					Vertices 247 246 185
+					Siblings 156 155 166
+					MaterialIndex 1
+				}
+				Tri 158
+				{
+					Vertices 243 246 245
+					Siblings -1 156 159
+					MaterialIndex 1
+				}
+				Tri 159
+				{
+					Vertices 245 244 243
+					Siblings 167 160 158
+					MaterialIndex 1
+				}
+				Tri 160
+				{
+					Vertices 242 243 244
+					Siblings -1 159 -1
+					MaterialIndex 1
+				}
+				Tri 161
+				{
+					Vertices 184 188 517
+					Siblings 145 162 163
+					MaterialIndex 1
+				}
+				Tri 162
+				{
+					Vertices 188 177 517
+					Siblings 146 151 161
+					MaterialIndex 1
+				}
+				Tri 163
+				{
+					Vertices 185 184 517
+					Siblings 153 161 164
+					MaterialIndex 1
+				}
+				Tri 164
+				{
+					Vertices 185 517 516
+					Siblings 163 -1 166
+					MaterialIndex 1
+				}
+				Tri 165
+				{
+					Vertices 245 247 516
+					Siblings 156 166 167
+					MaterialIndex 1
+				}
+				Tri 166
+				{
+					Vertices 247 185 516
+					Siblings 157 164 165
+					MaterialIndex 1
+				}
+				Tri 167
+				{
+					Vertices 244 245 516
+					Siblings 159 165 -1
+					MaterialIndex 1
+				}
+				Tri 168
+				{
+					Vertices 321 320 319
+					Siblings -1 169 172
+					MaterialIndex 2
+				}
+				Tri 169
+				{
+					Vertices 318 319 320
+					Siblings -1 168 -1
+					MaterialIndex 2
+				}
+				Tri 170
+				{
+					Vertices 373 374 376
+					Siblings 171 173 -1
+					MaterialIndex 2
+				}
+				Tri 171
+				{
+					Vertices 373 321 374
+					Siblings -1 172 170
+					MaterialIndex 2
+				}
+				Tri 172
+				{
+					Vertices 319 374 321
+					Siblings -1 171 168
+					MaterialIndex 2
+				}
+				Tri 173
+				{
+					Vertices 375 376 374
+					Siblings 174 170 -1
+					MaterialIndex 2
+				}
+				Tri 174
+				{
+					Vertices 376 375 199
+					Siblings 173 175 -1
+					MaterialIndex 2
+				}
+				Tri 175
+				{
+					Vertices 200 199 375
+					Siblings 179 174 -1
+					MaterialIndex 2
+				}
+				Tri 176
+				{
+					Vertices 379 380 378
+					Siblings -1 177 -1
+					MaterialIndex 2
+				}
+				Tri 177
+				{
+					Vertices 377 378 380
+					Siblings 181 176 -1
+					MaterialIndex 2
+				}
+				Tri 178
+				{
+					Vertices 202 201 200
+					Siblings 180 179 -1
+					MaterialIndex 2
+				}
+				Tri 179
+				{
+					Vertices 199 200 201
+					Siblings 175 178 -1
+					MaterialIndex 2
+				}
+				Tri 180
+				{
+					Vertices 201 202 377
+					Siblings 178 181 -1
+					MaterialIndex 2
+				}
+				Tri 181
+				{
+					Vertices 378 377 202
+					Siblings 177 180 -1
+					MaterialIndex 2
+				}
+				Tri 182
+				{
+					Vertices 274 275 276
+					Siblings -1 183 -1
+					MaterialIndex 2
+				}
+				Tri 183
+				{
+					Vertices 288 276 275
+					Siblings 184 182 -1
+					MaterialIndex 2
+				}
+				Tri 184
+				{
+					Vertices 276 288 507
+					Siblings 183 185 -1
+					MaterialIndex 2
+				}
+				Tri 185
+				{
+					Vertices 208 507 288
+					Siblings 186 184 -1
+					MaterialIndex 2
+				}
+				Tri 186
+				{
+					Vertices 208 209 507
+					Siblings 187 -1 185
+					MaterialIndex 2
+				}
+				Tri 187
+				{
+					Vertices 209 208 203
+					Siblings 186 188 -1
+					MaterialIndex 2
+				}
+				Tri 188
+				{
+					Vertices 207 203 208
+					Siblings 189 187 -1
+					MaterialIndex 2
+				}
+				Tri 189
+				{
+					Vertices 203 207 210
+					Siblings 188 190 193
+					MaterialIndex 2
+				}
+				Tri 190
+				{
+					Vertices 381 210 207
+					Siblings -1 189 -1
+					MaterialIndex 2
+				}
+				Tri 191
+				{
+					Vertices 206 205 204
+					Siblings -1 192 -1
+					MaterialIndex 2
+				}
+				Tri 192
+				{
+					Vertices 203 204 205
+					Siblings 193 191 -1
+					MaterialIndex 2
+				}
+				Tri 193
+				{
+					Vertices 203 210 204
+					Siblings 189 194 192
+					MaterialIndex 2
+				}
+				Tri 194
+				{
+					Vertices 211 204 210
+					Siblings -1 193 195
+					MaterialIndex 2
+				}
+				Tri 195
+				{
+					Vertices 211 210 213
+					Siblings 194 196 -1
+					MaterialIndex 0
+				}
+				Tri 196
+				{
+					Vertices 212 213 210
+					Siblings 197 195 -1
+					MaterialIndex 0
+				}
+				Tri 197
+				{
+					Vertices 213 212 198
+					Siblings 196 198 -1
+					MaterialIndex 0
+				}
+				Tri 198
+				{
+					Vertices 196 198 212
+					Siblings 199 197 -1
+					MaterialIndex 0
+				}
+				Tri 199
+				{
+					Vertices 196 197 198
+					Siblings -1 200 198
+					MaterialIndex 0
+				}
+				Tri 200
+				{
+					Vertices 218 198 197
+					Siblings -1 199 201
+					MaterialIndex 0
+				}
+				Tri 201
+				{
+					Vertices 218 197 216
+					Siblings 200 206 -1
+					MaterialIndex 0
+				}
+				Tri 202
+				{
+					Vertices 520 512 214
+					Siblings -1 203 -1
+					MaterialIndex 0
+				}
+				Tri 203
+				{
+					Vertices 215 214 512
+					Siblings 207 202 204
+					MaterialIndex 0
+				}
+				Tri 204
+				{
+					Vertices 215 512 513
+					Siblings 203 205 -1
+					MaterialIndex 0
+				}
+				Tri 205
+				{
+					Vertices 521 513 512
+					Siblings -1 204 -1
+					MaterialIndex 0
+				}
+				Tri 206
+				{
+					Vertices 214 216 197
+					Siblings 207 201 -1
+					MaterialIndex 0
+				}
+				Tri 207
+				{
+					Vertices 214 215 216
+					Siblings 203 208 206
+					MaterialIndex 0
+				}
+				Tri 208
+				{
+					Vertices 217 216 215
+					Siblings -1 207 -1
+					MaterialIndex 0
+				}
+				Tri 209
+				{
+					Vertices 190 191 192
+					Siblings -1 210 -1
+					MaterialIndex 0
+				}
+				Tri 210
+				{
+					Vertices 193 192 191
+					Siblings 212 209 -1
+					MaterialIndex 0
+				}
+				Tri 211
+				{
+					Vertices 194 192 195
+					Siblings -1 212 -1
+					MaterialIndex 0
+				}
+				Tri 212
+				{
+					Vertices 193 195 192
+					Siblings -1 211 210
+					MaterialIndex 0
+				}
+				Tri 213
+				{
+					Vertices 382 383 384
+					Siblings -1 214 -1
+					MaterialIndex 1
+				}
+				Tri 214
+				{
+					Vertices 385 384 383
+					Siblings -1 213 -1
+					MaterialIndex 1
+				}
+				Tri 215
+				{
+					Vertices 314 315 316
+					Siblings -1 216 -1
+					MaterialIndex 1
+				}
+				Tri 216
+				{
+					Vertices 317 316 315
+					Siblings -1 215 -1
+					MaterialIndex 1
+				}
+				Tri 217
+				{
+					Vertices 225 226 223
+					Siblings 219 218 -1
+					MaterialIndex 0
+				}
+				Tri 218
+				{
+					Vertices 224 223 226
+					Siblings 222 217 -1
+					MaterialIndex 0
+				}
+				Tri 219
+				{
+					Vertices 226 225 222
+					Siblings 217 220 -1
+					MaterialIndex 0
+				}
+				Tri 220
+				{
+					Vertices 221 222 225
+					Siblings 223 219 -1
+					MaterialIndex 0
+				}
+				Tri 221
+				{
+					Vertices 220 219 224
+					Siblings 224 222 -1
+					MaterialIndex 0
+				}
+				Tri 222
+				{
+					Vertices 223 224 219
+					Siblings 218 221 -1
+					MaterialIndex 0
+				}
+				Tri 223
+				{
+					Vertices 222 221 220
+					Siblings 220 224 -1
+					MaterialIndex 0
+				}
+				Tri 224
+				{
+					Vertices 219 220 221
+					Siblings 221 223 -1
+					MaterialIndex 0
+				}
+				Tri 225
+				{
+					Vertices 510 511 127
+					Siblings -1 226 -1
+					MaterialIndex 1
+				}
+				Tri 226
+				{
+					Vertices 125 127 511
+					Siblings 228 225 -1
+					MaterialIndex 1
+				}
+				Tri 227
+				{
+					Vertices 128 127 126
+					Siblings -1 228 -1
+					MaterialIndex 1
+				}
+				Tri 228
+				{
+					Vertices 125 126 127
+					Siblings -1 227 226
+					MaterialIndex 1
+				}
+				Tri 229
+				{
+					Vertices 508 509 27
+					Siblings -1 230 -1
+					MaterialIndex 1
+				}
+				Tri 230
+				{
+					Vertices 25 27 509
+					Siblings 236 229 -1
+					MaterialIndex 1
+				}
+				Tri 231
+				{
+					Vertices 95 92 96
+					Siblings -1 232 -1
+					MaterialIndex 1
+				}
+				Tri 232
+				{
+					Vertices 93 96 92
+					Siblings 238 231 233
+					MaterialIndex 1
+				}
+				Tri 233
+				{
+					Vertices 92 91 93
+					Siblings 243 234 232
+					MaterialIndex 1
+				}
+				Tri 234
+				{
+					Vertices 94 93 91
+					Siblings 239 233 -1
+					MaterialIndex 1
+				}
+				Tri 235
+				{
+					Vertices 124 27 26
+					Siblings -1 236 -1
+					MaterialIndex 1
+				}
+				Tri 236
+				{
+					Vertices 25 26 27
+					Siblings -1 235 230
+					MaterialIndex 1
+				}
+				Tri 237
+				{
+					Vertices 149 96 148
+					Siblings -1 238 -1
+					MaterialIndex 1
+				}
+				Tri 238
+				{
+					Vertices 93 148 96
+					Siblings 239 237 232
+					MaterialIndex 1
+				}
+				Tri 239
+				{
+					Vertices 93 94 148
+					Siblings 234 240 238
+					MaterialIndex 1
+				}
+				Tri 240
+				{
+					Vertices 150 148 94
+					Siblings -1 239 -1
+					MaterialIndex 1
+				}
+				Tri 241
+				{
+					Vertices 87 88 89
+					Siblings -1 242 244
+					MaterialIndex 1
+				}
+				Tri 242
+				{
+					Vertices 90 89 88
+					Siblings -1 241 -1
+					MaterialIndex 1
+				}
+				Tri 243
+				{
+					Vertices 92 87 91
+					Siblings -1 244 233
+					MaterialIndex 1
+				}
+				Tri 244
+				{
+					Vertices 89 91 87
+					Siblings -1 243 241
+					MaterialIndex 1
+				}
+				Tri 245
+				{
+					Vertices 287 279 278
+					Siblings -1 246 -1
+					MaterialIndex 0
+				}
+				Tri 246
+				{
+					Vertices 277 278 279
+					Siblings 278 245 247
+					MaterialIndex 0
+				}
+				Tri 247
+				{
+					Vertices 279 280 277
+					Siblings -1 248 246
+					MaterialIndex 0
+				}
+				Tri 248
+				{
+					Vertices 280 285 277
+					Siblings -1 249 247
+					MaterialIndex 0
+				}
+				Tri 249
+				{
+					Vertices 277 285 54
+					Siblings 248 -1 256
+					MaterialIndex 0
+				}
+				Tri 250
+				{
+					Vertices 85 146 86
+					Siblings -1 252 251
+					MaterialIndex 0
+				}
+				Tri 251
+				{
+					Vertices 86 84 85
+					Siblings -1 269 250
+					MaterialIndex 0
+				}
+				Tri 252
+				{
+					Vertices 145 86 146
+					Siblings -1 250 253
+					MaterialIndex 0
+				}
+				Tri 253
+				{
+					Vertices 145 146 54
+					Siblings 252 254 -1
+					MaterialIndex 0
+				}
+				Tri 254
+				{
+					Vertices 52 54 146
+					Siblings 255 253 -1
+					MaterialIndex 0
+				}
+				Tri 255
+				{
+					Vertices 52 53 54
+					Siblings -1 256 254
+					MaterialIndex 0
+				}
+				Tri 256
+				{
+					Vertices 54 53 277
+					Siblings 255 257 249
+					MaterialIndex 0
+				}
+				Tri 257
+				{
+					Vertices 282 277 53
+					Siblings 259 256 -1
+					MaterialIndex 0
+				}
+				Tri 258
+				{
+					Vertices 283 277 281
+					Siblings 282 259 -1
+					MaterialIndex 0
+				}
+				Tri 259
+				{
+					Vertices 281 277 282
+					Siblings 258 257 -1
+					MaterialIndex 0
+				}
+				Tri 260
+				{
+					Vertices 38 39 40
+					Siblings -1 277 261
+					MaterialIndex 0
+				}
+				Tri 261
+				{
+					Vertices 38 40 68
+					Siblings 260 262 -1
+					MaterialIndex 0
+				}
+				Tri 262
+				{
+					Vertices 32 68 40
+					Siblings 263 261 -1
+					MaterialIndex 0
+				}
+				Tri 263
+				{
+					Vertices 34 68 32
+					Siblings -1 262 264
+					MaterialIndex 0
+				}
+				Tri 264
+				{
+					Vertices 32 33 34
+					Siblings -1 265 263
+					MaterialIndex 0
+				}
+				Tri 265
+				{
+					Vertices 35 34 33
+					Siblings -1 264 266
+					MaterialIndex 0
+				}
+				Tri 266
+				{
+					Vertices 35 33 36
+					Siblings 265 267 -1
+					MaterialIndex 0
+				}
+				Tri 267
+				{
+					Vertices 37 36 33
+					Siblings 268 266 -1
+					MaterialIndex 0
+				}
+				Tri 268
+				{
+					Vertices 37 83 36
+					Siblings -1 270 267
+					MaterialIndex 0
+				}
+				Tri 269
+				{
+					Vertices 83 85 84
+					Siblings -1 251 270
+					MaterialIndex 0
+				}
+				Tri 270
+				{
+					Vertices 84 36 83
+					Siblings -1 268 269
+					MaterialIndex 0
+				}
+				Tri 271
+				{
+					Vertices 69 70 71
+					Siblings -1 -1 272
+					MaterialIndex 0
+				}
+				Tri 272
+				{
+					Vertices 71 81 69
+					Siblings -1 273 271
+					MaterialIndex 0
+				}
+				Tri 273
+				{
+					Vertices 82 69 81
+					Siblings -1 272 274
+					MaterialIndex 0
+				}
+				Tri 274
+				{
+					Vertices 81 41 82
+					Siblings -1 275 273
+					MaterialIndex 0
+				}
+				Tri 275
+				{
+					Vertices 42 82 41
+					Siblings -1 274 276
+					MaterialIndex 0
+				}
+				Tri 276
+				{
+					Vertices 41 40 42
+					Siblings -1 277 275
+					MaterialIndex 0
+				}
+				Tri 277
+				{
+					Vertices 39 42 40
+					Siblings -1 276 260
+					MaterialIndex 0
+				}
+				Tri 278
+				{
+					Vertices 278 277 49
+					Siblings 246 279 -1
+					MaterialIndex 0
+				}
+				Tri 279
+				{
+					Vertices 47 49 277
+					Siblings 281 278 282
+					MaterialIndex 0
+				}
+				Tri 280
+				{
+					Vertices 152 49 48
+					Siblings -1 281 292
+					MaterialIndex 0
+				}
+				Tri 281
+				{
+					Vertices 47 48 49
+					Siblings 285 280 279
+					MaterialIndex 0
+				}
+				Tri 282
+				{
+					Vertices 277 283 47
+					Siblings 258 283 279
+					MaterialIndex 0
+				}
+				Tri 283
+				{
+					Vertices 284 47 283
+					Siblings 284 282 -1
+					MaterialIndex 0
+				}
+				Tri 284
+				{
+					Vertices 284 154 47
+					Siblings -1 285 283
+					MaterialIndex 0
+				}
+				Tri 285
+				{
+					Vertices 48 47 154
+					Siblings 281 284 286
+					MaterialIndex 0
+				}
+				Tri 286
+				{
+					Vertices 154 153 48
+					Siblings 287 295 285
+					MaterialIndex 0
+				}
+				Tri 287
+				{
+					Vertices 153 154 155
+					Siblings 286 288 -1
+					MaterialIndex 0
+				}
+				Tri 288
+				{
+					Vertices 156 155 154
+					Siblings 289 287 -1
+					MaterialIndex 0
+				}
+				Tri 289
+				{
+					Vertices 155 156 494
+					Siblings 288 290 -1
+					MaterialIndex 0
+				}
+				Tri 290
+				{
+					Vertices 495 494 156
+					Siblings -1 289 -1
+					MaterialIndex 0
+				}
+				Tri 291
+				{
+					Vertices 151 152 51
+					Siblings -1 292 -1
+					MaterialIndex 0
+				}
+				Tri 292
+				{
+					Vertices 48 51 152
+					Siblings 293 291 280
+					MaterialIndex 0
+				}
+				Tri 293
+				{
+					Vertices 50 51 48
+					Siblings -1 292 294
+					MaterialIndex 0
+				}
+				Tri 294
+				{
+					Vertices 286 50 48
+					Siblings -1 293 295
+					MaterialIndex 0
+				}
+				Tri 295
+				{
+					Vertices 286 48 153
+					Siblings 294 286 -1
+					MaterialIndex 0
+				}
+				Tri 296
+				{
+					Vertices 20 21 22
+					Siblings -1 297 -1
+					MaterialIndex 1
+				}
+				Tri 297
+				{
+					Vertices 23 22 21
+					Siblings -1 296 298
+					MaterialIndex 1
+				}
+				Tri 298
+				{
+					Vertices 21 465 23
+					Siblings -1 299 297
+					MaterialIndex 1
+				}
+				Tri 299
+				{
+					Vertices 464 23 465
+					Siblings -1 298 300
+					MaterialIndex 1
+				}
+				Tri 300
+				{
+					Vertices 465 29 464
+					Siblings -1 301 299
+					MaterialIndex 1
+				}
+				Tri 301
+				{
+					Vertices 28 464 29
+					Siblings -1 300 302
+					MaterialIndex 1
+				}
+				Tri 302
+				{
+					Vertices 28 29 30
+					Siblings 301 303 -1
+					MaterialIndex 1
+				}
+				Tri 303
+				{
+					Vertices 31 30 29
+					Siblings -1 302 -1
+					MaterialIndex 1
+				}
+				Tri 304
+				{
+					Vertices 46 45 44
+					Siblings 317 305 -1
+					MaterialIndex 0
+				}
+				Tri 305
+				{
+					Vertices 43 44 45
+					Siblings -1 304 308
+					MaterialIndex 0
+				}
+				Tri 306
+				{
+					Vertices 10 24 9
+					Siblings -1 307 311
+					MaterialIndex 0
+				}
+				Tri 307
+				{
+					Vertices 24 43 9
+					Siblings -1 308 306
+					MaterialIndex 0
+				}
+				Tri 308
+				{
+					Vertices 45 9 43
+					Siblings 309 307 305
+					MaterialIndex 0
+				}
+				Tri 309
+				{
+					Vertices 9 45 17
+					Siblings 308 310 313
+					MaterialIndex 0
+				}
+				Tri 310
+				{
+					Vertices 14 17 45
+					Siblings 319 309 317
+					MaterialIndex 0
+				}
+				Tri 311
+				{
+					Vertices 10 9 8
+					Siblings 306 312 -1
+					MaterialIndex 0
+				}
+				Tri 312
+				{
+					Vertices 7 8 9
+					Siblings -1 311 313
+					MaterialIndex 0
+				}
+				Tri 313
+				{
+					Vertices 9 17 7
+					Siblings 309 314 312
+					MaterialIndex 0
+				}
+				Tri 314
+				{
+					Vertices 16 7 17
+					Siblings -1 313 315
+					MaterialIndex 0
+				}
+				Tri 315
+				{
+					Vertices 16 17 18
+					Siblings 314 316 -1
+					MaterialIndex 0
+				}
+				Tri 316
+				{
+					Vertices 19 18 17
+					Siblings -1 315 320
+					MaterialIndex 0
+				}
+				Tri 317
+				{
+					Vertices 45 46 14
+					Siblings 304 318 310
+					MaterialIndex 0
+				}
+				Tri 318
+				{
+					Vertices 11 14 46
+					Siblings 321 317 -1
+					MaterialIndex 0
+				}
+				Tri 319
+				{
+					Vertices 14 15 17
+					Siblings 323 320 310
+					MaterialIndex 0
+				}
+				Tri 320
+				{
+					Vertices 19 17 15
+					Siblings 316 319 -1
+					MaterialIndex 0
+				}
+				Tri 321
+				{
+					Vertices 14 11 13
+					Siblings 318 322 323
+					MaterialIndex 0
+				}
+				Tri 322
+				{
+					Vertices 11 12 13
+					Siblings -1 -1 321
+					MaterialIndex 0
+				}
+				Tri 323
+				{
+					Vertices 15 14 13
+					Siblings 319 321 -1
+					MaterialIndex 0
+				}
+				Tri 324
+				{
+					Vertices 55 57 59
+					Siblings 335 326 -1
+					MaterialIndex 0
+				}
+				Tri 325
+				{
+					Vertices 60 62 59
+					Siblings -1 327 326
+					MaterialIndex 0
+				}
+				Tri 326
+				{
+					Vertices 60 59 57
+					Siblings 325 324 -1
+					MaterialIndex 0
+				}
+				Tri 327
+				{
+					Vertices 61 59 62
+					Siblings -1 325 328
+					MaterialIndex 0
+				}
+				Tri 328
+				{
+					Vertices 62 79 61
+					Siblings -1 329 327
+					MaterialIndex 0
+				}
+				Tri 329
+				{
+					Vertices 80 61 79
+					Siblings -1 328 330
+					MaterialIndex 0
+				}
+				Tri 330
+				{
+					Vertices 79 67 80
+					Siblings -1 331 329
+					MaterialIndex 0
+				}
+				Tri 331
+				{
+					Vertices 63 80 67
+					Siblings -1 330 332
+					MaterialIndex 0
+				}
+				Tri 332
+				{
+					Vertices 67 64 63
+					Siblings -1 334 331
+					MaterialIndex 0
+				}
+				Tri 333
+				{
+					Vertices 66 65 64
+					Siblings -1 334 -1
+					MaterialIndex 0
+				}
+				Tri 334
+				{
+					Vertices 63 64 65
+					Siblings 332 333 -1
+					MaterialIndex 0
+				}
+				Tri 335
+				{
+					Vertices 55 56 57
+					Siblings 357 336 324
+					MaterialIndex 0
+				}
+				Tri 336
+				{
+					Vertices 58 57 56
+					Siblings 337 335 -1
+					MaterialIndex 0
+				}
+				Tri 337
+				{
+					Vertices 58 167 57
+					Siblings -1 338 336
+					MaterialIndex 0
+				}
+				Tri 338
+				{
+					Vertices 270 57 167
+					Siblings -1 337 339
+					MaterialIndex 0
+				}
+				Tri 339
+				{
+					Vertices 168 270 167
+					Siblings -1 338 340
+					MaterialIndex 0
+				}
+				Tri 340
+				{
+					Vertices 167 75 168
+					Siblings -1 341 339
+					MaterialIndex 0
+				}
+				Tri 341
+				{
+					Vertices 76 168 75
+					Siblings -1 340 364
+					MaterialIndex 0
+				}
+				Tri 342
+				{
+					Vertices 525 163 524
+					Siblings -1 343 -1
+					MaterialIndex 0
+				}
+				Tri 343
+				{
+					Vertices 165 524 163
+					Siblings -1 342 344
+					MaterialIndex 0
+				}
+				Tri 344
+				{
+					Vertices 163 164 165
+					Siblings -1 345 343
+					MaterialIndex 0
+				}
+				Tri 345
+				{
+					Vertices 166 165 164
+					Siblings -1 344 346
+					MaterialIndex 0
+				}
+				Tri 346
+				{
+					Vertices 164 147 166
+					Siblings 352 353 345
+					MaterialIndex 0
+				}
+				Tri 347
+				{
+					Vertices 466 325 273
+					Siblings -1 348 -1
+					MaterialIndex 0
+				}
+				Tri 348
+				{
+					Vertices 98 273 325
+					Siblings 349 347 359
+					MaterialIndex 0
+				}
+				Tri 349
+				{
+					Vertices 273 98 272
+					Siblings 348 350 -1
+					MaterialIndex 0
+				}
+				Tri 350
+				{
+					Vertices 97 272 98
+					Siblings 351 349 361
+					MaterialIndex 0
+				}
+				Tri 351
+				{
+					Vertices 272 97 164
+					Siblings 350 352 -1
+					MaterialIndex 0
+				}
+				Tri 352
+				{
+					Vertices 147 164 97
+					Siblings 346 351 363
+					MaterialIndex 0
+				}
+				Tri 353
+				{
+					Vertices 271 166 147
+					Siblings -1 346 354
+					MaterialIndex 0
+				}
+				Tri 354
+				{
+					Vertices 269 271 147
+					Siblings -1 353 355
+					MaterialIndex 0
+				}
+				Tri 355
+				{
+					Vertices 269 147 268
+					Siblings 354 356 -1
+					MaterialIndex 0
+				}
+				Tri 356
+				{
+					Vertices 268 147 55
+					Siblings 355 357 -1
+					MaterialIndex 0
+				}
+				Tri 357
+				{
+					Vertices 56 55 147
+					Siblings 335 356 363
+					MaterialIndex 0
+				}
+				Tri 358
+				{
+					Vertices 324 100 325
+					Siblings -1 359 -1
+					MaterialIndex 0
+				}
+				Tri 359
+				{
+					Vertices 98 325 100
+					Siblings 348 358 360
+					MaterialIndex 0
+				}
+				Tri 360
+				{
+					Vertices 100 99 98
+					Siblings -1 361 359
+					MaterialIndex 0
+				}
+				Tri 361
+				{
+					Vertices 97 98 99
+					Siblings 350 360 362
+					MaterialIndex 0
+				}
+				Tri 362
+				{
+					Vertices 99 56 97
+					Siblings -1 363 361
+					MaterialIndex 0
+				}
+				Tri 363
+				{
+					Vertices 147 97 56
+					Siblings 352 362 357
+					MaterialIndex 0
+				}
+				Tri 364
+				{
+					Vertices 76 75 73
+					Siblings 341 365 -1
+					MaterialIndex 0
+				}
+				Tri 365
+				{
+					Vertices 74 73 75
+					Siblings 366 364 -1
+					MaterialIndex 0
+				}
+				Tri 366
+				{
+					Vertices 74 72 73
+					Siblings -1 367 365
+					MaterialIndex 0
+				}
+				Tri 367
+				{
+					Vertices 1 73 72
+					Siblings -1 366 368
+					MaterialIndex 0
+				}
+				Tri 368
+				{
+					Vertices 72 2 1
+					Siblings -1 369 367
+					MaterialIndex 0
+				}
+				Tri 369
+				{
+					Vertices 0 1 2
+					Siblings -1 368 370
+					MaterialIndex 0
+				}
+				Tri 370
+				{
+					Vertices 2 6 0
+					Siblings -1 371 369
+					MaterialIndex 0
+				}
+				Tri 371
+				{
+					Vertices 4 0 6
+					Siblings -1 370 372
+					MaterialIndex 0
+				}
+				Tri 372
+				{
+					Vertices 6 5 4
+					Siblings -1 373 371
+					MaterialIndex 0
+				}
+				Tri 373
+				{
+					Vertices 3 4 5
+					Siblings -1 372 374
+					MaterialIndex 0
+				}
+				Tri 374
+				{
+					Vertices 3 5 78
+					Siblings 373 375 -1
+					MaterialIndex 0
+				}
+				Tri 375
+				{
+					Vertices 77 78 5
+					Siblings -1 374 -1
+					MaterialIndex 0
+				}
+				Tri 376
+				{
+					Vertices 329 328 327
+					Siblings -1 377 -1
+					MaterialIndex 2
+				}
+				Tri 377
+				{
+					Vertices 326 327 328
+					Siblings 378 376 -1
+					MaterialIndex 2
+				}
+				Tri 378
+				{
+					Vertices 326 331 327
+					Siblings -1 379 377
+					MaterialIndex 2
+				}
+				Tri 379
+				{
+					Vertices 330 327 331
+					Siblings -1 378 380
+					MaterialIndex 2
+				}
+				Tri 380
+				{
+					Vertices 330 331 332
+					Siblings 379 381 -1
+					MaterialIndex 2
+				}
+				Tri 381
+				{
+					Vertices 333 332 331
+					Siblings 382 380 -1
+					MaterialIndex 2
+				}
+				Tri 382
+				{
+					Vertices 332 333 338
+					Siblings 381 383 -1
+					MaterialIndex 2
+				}
+				Tri 383
+				{
+					Vertices 333 335 338
+					Siblings -1 384 382
+					MaterialIndex 2
+				}
+				Tri 384
+				{
+					Vertices 334 338 335
+					Siblings -1 383 385
+					MaterialIndex 2
+				}
+				Tri 385
+				{
+					Vertices 334 335 336
+					Siblings 384 386 -1
+					MaterialIndex 2
+				}
+				Tri 386
+				{
+					Vertices 337 336 335
+					Siblings 387 385 -1
+					MaterialIndex 2
+				}
+				Tri 387
+				{
+					Vertices 337 291 336
+					Siblings -1 389 386
+					MaterialIndex 2
+				}
+				Tri 388
+				{
+					Vertices 289 290 291
+					Siblings -1 389 -1
+					MaterialIndex 2
+				}
+				Tri 389
+				{
+					Vertices 290 336 291
+					Siblings 390 387 388
+					MaterialIndex 2
+				}
+				Tri 390
+				{
+					Vertices 336 290 160
+					Siblings 389 391 -1
+					MaterialIndex 2
+				}
+				Tri 391
+				{
+					Vertices 159 160 290
+					Siblings 392 390 -1
+					MaterialIndex 2
+				}
+				Tri 392
+				{
+					Vertices 160 159 158
+					Siblings 391 393 -1
+					MaterialIndex 2
+				}
+				Tri 393
+				{
+					Vertices 157 158 159
+					Siblings 394 392 -1
+					MaterialIndex 2
+				}
+				Tri 394
+				{
+					Vertices 157 161 158
+					Siblings -1 395 393
+					MaterialIndex 2
+				}
+				Tri 395
+				{
+					Vertices 162 158 161
+					Siblings -1 394 -1
+					MaterialIndex 2
+				}
+				Tri 396
+				{
+					Vertices 267 265 322
+					Siblings 403 397 -1
+					MaterialIndex 0
+				}
+				Tri 397
+				{
+					Vertices 323 322 265
+					Siblings 398 396 -1
+					MaterialIndex 0
+				}
+				Tri 398
+				{
+					Vertices 322 323 339
+					Siblings 397 400 -1
+					MaterialIndex 0
+				}
+				Tri 399
+				{
+					Vertices 523 339 522
+					Siblings -1 400 -1
+					MaterialIndex 0
+				}
+				Tri 400
+				{
+					Vertices 323 522 339
+					Siblings -1 399 398
+					MaterialIndex 0
+				}
+				Tri 401
+				{
+					Vertices 266 527 264
+					Siblings -1 402 404
+					MaterialIndex 0
+				}
+				Tri 402
+				{
+					Vertices 526 264 527
+					Siblings -1 401 -1
+					MaterialIndex 0
+				}
+				Tri 403
+				{
+					Vertices 267 266 265
+					Siblings -1 404 396
+					MaterialIndex 0
+				}
+				Tri 404
+				{
+					Vertices 264 265 266
+					Siblings -1 403 401
+					MaterialIndex 0
+				}
+				Tri 405
+				{
+					Vertices 470 469 468
+					Siblings -1 406 -1
+					MaterialIndex 1
+				}
+				Tri 406
+				{
+					Vertices 467 468 469
+					Siblings 407 405 -1
+					MaterialIndex 1
+				}
+				Tri 407
+				{
+					Vertices 468 467 472
+					Siblings 406 408 -1
+					MaterialIndex 1
+				}
+				Tri 408
+				{
+					Vertices 471 472 467
+					Siblings 413 407 -1
+					MaterialIndex 1
+				}
+				Tri 409
+				{
+					Vertices 340 341 342
+					Siblings -1 -1 410
+					MaterialIndex 1
+				}
+				Tri 410
+				{
+					Vertices 342 476 340
+					Siblings -1 411 409
+					MaterialIndex 1
+				}
+				Tri 411
+				{
+					Vertices 475 340 476
+					Siblings -1 410 414
+					MaterialIndex 1
+				}
+				Tri 412
+				{
+					Vertices 474 472 473
+					Siblings -1 413 415
+					MaterialIndex 1
+				}
+				Tri 413
+				{
+					Vertices 471 473 472
+					Siblings -1 412 408
+					MaterialIndex 1
+				}
+				Tri 414
+				{
+					Vertices 476 474 475
+					Siblings -1 415 411
+					MaterialIndex 1
+				}
+				Tri 415
+				{
+					Vertices 473 475 474
+					Siblings -1 414 412
+					MaterialIndex 1
+				}
+				Tri 416
+				{
+					Vertices 457 111 121
+					Siblings 418 420 477
+					MaterialIndex 1
+				}
+				Tri 417
+				{
+					Vertices 117 115 457
+					Siblings 483 418 469
+					MaterialIndex 1
+				}
+				Tri 418
+				{
+					Vertices 115 111 457
+					Siblings 419 416 417
+					MaterialIndex 1
+				}
+				Tri 419
+				{
+					Vertices 113 111 115
+					Siblings 487 418 485
+					MaterialIndex 1
+				}
+				Tri 420
+				{
+					Vertices 121 111 497
+					Siblings 416 425 446
+					MaterialIndex 1
+				}
+				Tri 421
+				{
+					Vertices 109 105 111
+					Siblings 499 422 489
+					MaterialIndex 1
+				}
+				Tri 422
+				{
+					Vertices 105 478 111
+					Siblings 423 424 421
+					MaterialIndex 1
+				}
+				Tri 423
+				{
+					Vertices 107 478 105
+					Siblings 503 422 502
+					MaterialIndex 1
+				}
+				Tri 424
+				{
+					Vertices 111 478 486
+					Siblings 422 428 425
+					MaterialIndex 1
+				}
+				Tri 425
+				{
+					Vertices 497 111 486
+					Siblings 420 424 426
+					MaterialIndex 1
+				}
+				Tri 426
+				{
+					Vertices 505 497 486
+					Siblings 449 425 430
+					MaterialIndex 1
+				}
+				Tri 427
+				{
+					Vertices 480 482 478
+					Siblings 497 428 495
+					MaterialIndex 1
+				}
+				Tri 428
+				{
+					Vertices 478 482 486
+					Siblings 427 432 424
+					MaterialIndex 1
+				}
+				Tri 429
+				{
+					Vertices 492 505 490
+					Siblings 464 430 466
+					MaterialIndex 1
+				}
+				Tri 430
+				{
+					Vertices 490 505 486
+					Siblings 429 426 431
+					MaterialIndex 1
+				}
+				Tri 431
+				{
+					Vertices 488 490 486
+					Siblings 439 430 437
+					MaterialIndex 1
+				}
+				Tri 432
+				{
+					Vertices 482 484 486
+					Siblings 433 435 428
+					MaterialIndex 1
+				}
+				Tri 433
+				{
+					Vertices 482 483 484
+					Siblings 498 434 432
+					MaterialIndex 1
+				}
+				Tri 434
+				{
+					Vertices 485 484 483
+					Siblings 435 433 -1
+					MaterialIndex 1
+				}
+				Tri 435
+				{
+					Vertices 484 485 486
+					Siblings 434 436 432
+					MaterialIndex 1
+				}
+				Tri 436
+				{
+					Vertices 487 486 485
+					Siblings 437 435 -1
+					MaterialIndex 1
+				}
+				Tri 437
+				{
+					Vertices 486 487 488
+					Siblings 436 438 431
+					MaterialIndex 1
+				}
+				Tri 438
+				{
+					Vertices 489 488 487
+					Siblings 439 437 -1
+					MaterialIndex 1
+				}
+				Tri 439
+				{
+					Vertices 488 489 490
+					Siblings 438 440 431
+					MaterialIndex 1
+				}
+				Tri 440
+				{
+					Vertices 491 490 489
+					Siblings 466 439 -1
+					MaterialIndex 1
+				}
+				Tri 441
+				{
+					Vertices 120 121 122
+					Siblings 481 442 -1
+					MaterialIndex 1
+				}
+				Tri 442
+				{
+					Vertices 123 122 121
+					Siblings 443 441 445
+					MaterialIndex 1
+				}
+				Tri 443
+				{
+					Vertices 122 123 104
+					Siblings 442 444 -1
+					MaterialIndex 1
+				}
+				Tri 444
+				{
+					Vertices 103 104 123
+					Siblings 451 443 445
+					MaterialIndex 1
+				}
+				Tri 445
+				{
+					Vertices 123 121 103
+					Siblings 442 446 444
+					MaterialIndex 1
+				}
+				Tri 446
+				{
+					Vertices 103 121 497
+					Siblings 445 420 448
+					MaterialIndex 1
+				}
+				Tri 447
+				{
+					Vertices 499 497 501
+					Siblings 456 449 458
+					MaterialIndex 1
+				}
+				Tri 448
+				{
+					Vertices 101 103 497
+					Siblings 452 446 454
+					MaterialIndex 1
+				}
+				Tri 449
+				{
+					Vertices 501 497 505
+					Siblings 447 426 450
+					MaterialIndex 1
+				}
+				Tri 450
+				{
+					Vertices 503 501 505
+					Siblings 460 449 462
+					MaterialIndex 1
+				}
+				Tri 451
+				{
+					Vertices 104 103 102
+					Siblings 444 452 -1
+					MaterialIndex 1
+				}
+				Tri 452
+				{
+					Vertices 101 102 103
+					Siblings 453 451 448
+					MaterialIndex 1
+				}
+				Tri 453
+				{
+					Vertices 102 101 496
+					Siblings 452 454 -1
+					MaterialIndex 1
+				}
+				Tri 454
+				{
+					Vertices 497 496 101
+					Siblings 455 453 448
+					MaterialIndex 1
+				}
+				Tri 455
+				{
+					Vertices 496 497 498
+					Siblings 454 456 -1
+					MaterialIndex 1
+				}
+				Tri 456
+				{
+					Vertices 499 498 497
+					Siblings 457 455 447
+					MaterialIndex 1
+				}
+				Tri 457
+				{
+					Vertices 498 499 500
+					Siblings 456 458 -1
+					MaterialIndex 1
+				}
+				Tri 458
+				{
+					Vertices 501 500 499
+					Siblings 459 457 447
+					MaterialIndex 1
+				}
+				Tri 459
+				{
+					Vertices 500 501 502
+					Siblings 458 460 -1
+					MaterialIndex 1
+				}
+				Tri 460
+				{
+					Vertices 503 502 501
+					Siblings 461 459 450
+					MaterialIndex 1
+				}
+				Tri 461
+				{
+					Vertices 502 503 504
+					Siblings 460 462 -1
+					MaterialIndex 1
+				}
+				Tri 462
+				{
+					Vertices 505 504 503
+					Siblings 463 461 450
+					MaterialIndex 1
+				}
+				Tri 463
+				{
+					Vertices 504 505 506
+					Siblings 462 464 -1
+					MaterialIndex 1
+				}
+				Tri 464
+				{
+					Vertices 492 506 505
+					Siblings 465 463 429
+					MaterialIndex 1
+				}
+				Tri 465
+				{
+					Vertices 506 492 491
+					Siblings 464 466 -1
+					MaterialIndex 1
+				}
+				Tri 466
+				{
+					Vertices 490 491 492
+					Siblings 440 465 429
+					MaterialIndex 1
+				}
+				Tri 467
+				{
+					Vertices 460 456 459
+					Siblings -1 468 470
+					MaterialIndex 1
+				}
+				Tri 468
+				{
+					Vertices 456 457 459
+					Siblings 469 475 467
+					MaterialIndex 1
+				}
+				Tri 469
+				{
+					Vertices 457 456 117
+					Siblings 468 482 417
+					MaterialIndex 1
+				}
+				Tri 470
+				{
+					Vertices 460 459 461
+					Siblings 467 471 -1
+					MaterialIndex 1
+				}
+				Tri 471
+				{
+					Vertices 461 459 463
+					Siblings 470 472 -1
+					MaterialIndex 1
+				}
+				Tri 472
+				{
+					Vertices 459 458 463
+					Siblings 475 473 471
+					MaterialIndex 1
+				}
+				Tri 473
+				{
+					Vertices 458 462 463
+					Siblings 474 478 472
+					MaterialIndex 1
+				}
+				Tri 474
+				{
+					Vertices 458 457 462
+					Siblings 475 477 473
+					MaterialIndex 1
+				}
+				Tri 475
+				{
+					Vertices 457 458 459
+					Siblings 474 472 468
+					MaterialIndex 1
+				}
+				Tri 476
+				{
+					Vertices 119 462 121
+					Siblings 479 477 481
+					MaterialIndex 1
+				}
+				Tri 477
+				{
+					Vertices 462 457 121
+					Siblings 474 416 476
+					MaterialIndex 1
+				}
+				Tri 478
+				{
+					Vertices 463 462 118
+					Siblings 473 479 -1
+					MaterialIndex 1
+				}
+				Tri 479
+				{
+					Vertices 119 118 462
+					Siblings 480 478 476
+					MaterialIndex 1
+				}
+				Tri 480
+				{
+					Vertices 118 119 120
+					Siblings 479 481 -1
+					MaterialIndex 1
+				}
+				Tri 481
+				{
+					Vertices 121 120 119
+					Siblings 441 480 476
+					MaterialIndex 1
+				}
+				Tri 482
+				{
+					Vertices 116 117 456
+					Siblings 483 469 -1
+					MaterialIndex 1
+				}
+				Tri 483
+				{
+					Vertices 117 116 115
+					Siblings 482 484 417
+					MaterialIndex 1
+				}
+				Tri 484
+				{
+					Vertices 114 115 116
+					Siblings 485 483 490
+					MaterialIndex 1
+				}
+				Tri 485
+				{
+					Vertices 115 114 113
+					Siblings 484 486 419
+					MaterialIndex 1
+				}
+				Tri 486
+				{
+					Vertices 112 113 114
+					Siblings 487 485 491
+					MaterialIndex 1
+				}
+				Tri 487
+				{
+					Vertices 113 112 111
+					Siblings 486 488 419
+					MaterialIndex 1
+				}
+				Tri 488
+				{
+					Vertices 110 111 112
+					Siblings 489 487 493
+					MaterialIndex 1
+				}
+				Tri 489
+				{
+					Vertices 111 110 109
+					Siblings 488 500 421
+					MaterialIndex 1
+				}
+				Tri 490
+				{
+					Vertices 455 114 116
+					Siblings 491 484 -1
+					MaterialIndex 1
+				}
+				Tri 491
+				{
+					Vertices 114 455 112
+					Siblings 490 492 486
+					MaterialIndex 1
+				}
+				Tri 492
+				{
+					Vertices 453 112 455
+					Siblings 493 491 -1
+					MaterialIndex 1
+				}
+				Tri 493
+				{
+					Vertices 112 453 110
+					Siblings 492 505 488
+					MaterialIndex 1
+				}
+				Tri 494
+				{
+					Vertices 479 478 477
+					Siblings 495 503 -1
+					MaterialIndex 1
+				}
+				Tri 495
+				{
+					Vertices 478 479 480
+					Siblings 494 496 427
+					MaterialIndex 1
+				}
+				Tri 496
+				{
+					Vertices 481 480 479
+					Siblings 497 495 -1
+					MaterialIndex 1
+				}
+				Tri 497
+				{
+					Vertices 480 481 482
+					Siblings 496 498 427
+					MaterialIndex 1
+				}
+				Tri 498
+				{
+					Vertices 483 482 481
+					Siblings 433 497 -1
+					MaterialIndex 1
+				}
+				Tri 499
+				{
+					Vertices 109 108 105
+					Siblings 500 501 421
+					MaterialIndex 1
+				}
+				Tri 500
+				{
+					Vertices 108 109 110
+					Siblings 499 489 506
+					MaterialIndex 1
+				}
+				Tri 501
+				{
+					Vertices 106 105 108
+					Siblings 502 499 -1
+					MaterialIndex 1
+				}
+				Tri 502
+				{
+					Vertices 105 106 107
+					Siblings 501 504 423
+					MaterialIndex 1
+				}
+				Tri 503
+				{
+					Vertices 107 477 478
+					Siblings 504 494 423
+					MaterialIndex 1
+				}
+				Tri 504
+				{
+					Vertices 477 107 106
+					Siblings 503 502 -1
+					MaterialIndex 1
+				}
+				Tri 505
+				{
+					Vertices 454 110 453
+					Siblings 506 493 -1
+					MaterialIndex 1
+				}
+				Tri 506
+				{
+					Vertices 110 454 108
+					Siblings 505 507 500
+					MaterialIndex 1
+				}
+				Tri 507
+				{
+					Vertices 493 108 454
+					Siblings -1 506 -1
+					MaterialIndex 1
+				}
+				Tri 508
+				{
+					Vertices 133 134 135
+					Siblings -1 509 511
+					MaterialIndex 0
+				}
+				Tri 509
+				{
+					Vertices 136 135 134
+					Siblings -1 508 -1
+					MaterialIndex 0
+				}
+				Tri 510
+				{
+					Vertices 143 133 144
+					Siblings -1 511 -1
+					MaterialIndex 0
+				}
+				Tri 511
+				{
+					Vertices 135 144 133
+					Siblings -1 510 508
+					MaterialIndex 0
+				}
+				Tri 512
+				{
+					Vertices 140 297 142
+					Siblings -1 513 515
+					MaterialIndex 0
+				}
+				Tri 513
+				{
+					Vertices 296 142 297
+					Siblings -1 512 -1
+					MaterialIndex 0
+				}
+				Tri 514
+				{
+					Vertices 139 140 141
+					Siblings -1 515 -1
+					MaterialIndex 0
+				}
+				Tri 515
+				{
+					Vertices 142 141 140
+					Siblings -1 514 512
+					MaterialIndex 0
+				}
+				Tri 516
+				{
+					Vertices 292 293 294
+					Siblings -1 517 -1
+					MaterialIndex 0
+				}
+				Tri 517
+				{
+					Vertices 295 294 293
+					Siblings -1 516 -1
+					MaterialIndex 0
+				}
+				Tri 518
+				{
+					Vertices 131 137 129
+					Siblings -1 519 521
+					MaterialIndex 0
+				}
+				Tri 519
+				{
+					Vertices 138 129 137
+					Siblings -1 518 -1
+					MaterialIndex 0
+				}
+				Tri 520
+				{
+					Vertices 132 131 130
+					Siblings -1 521 -1
+					MaterialIndex 0
+				}
+				Tri 521
+				{
+					Vertices 129 130 131
+					Siblings -1 520 518
+					MaterialIndex 0
+				}
+				Tri 522
+				{
+					Vertices 310 311 312
+					Siblings -1 523 -1
+					MaterialIndex 0
+				}
+				Tri 523
+				{
+					Vertices 313 312 311
+					Siblings -1 522 -1
+					MaterialIndex 0
+				}
+				Tri 524
+				{
+					Vertices 305 304 303
+					Siblings -1 525 -1
+					MaterialIndex 0
+				}
+				Tri 525
+				{
+					Vertices 302 303 304
+					Siblings -1 524 -1
+					MaterialIndex 0
+				}
+				Tri 526
+				{
+					Vertices 306 307 308
+					Siblings -1 527 -1
+					MaterialIndex 0
+				}
+				Tri 527
+				{
+					Vertices 309 308 307
+					Siblings -1 526 -1
+					MaterialIndex 0
+				}
+				Tri 528
+				{
+					Vertices 298 299 300
+					Siblings -1 529 -1
+					MaterialIndex 0
+				}
+				Tri 529
+				{
+					Vertices 301 300 299
+					Siblings -1 528 -1
+					MaterialIndex 0
+				}
+			}
+			GeometryCenter -1543.31400000 -585.91260000 28.46820000 0.00250000
+			Vertices 528
+			{
+				-14.45387000 -28.68638000 1.39851500
+				-15.81504000 -30.82810000 1.25096400
+				-11.78808000 -30.51983000 1.26458400
+				-14.09843000 -28.12857000 1.43691600
+				-14.27009000 -28.39867000 1.41837700
+				-11.56189000 -30.16166000 1.29220300
+				-11.60632000 -30.23065000 1.28671700
+				-26.03393000 -26.35824000 1.81222400
+				-23.81647000 -30.51543000 1.81222400
+				-19.80566000 -26.92193000 1.81222400
+				-21.15876000 -30.74149000 1.81222400
+				-15.62723000 -26.90284000 1.81203500
+				-12.95335000 -24.22827000 1.80087400
+				-12.92306000 -23.91266000 1.79973900
+				-19.38964000 -26.57403000 1.81222400
+				-19.10892000 -23.32548000 1.80333300
+				-26.00162000 -25.99566000 1.81222400
+				-19.77133000 -26.54026000 1.81222400
+				-25.71081000 -22.75152000 1.80787300
+				-19.47648000 -23.29319000 1.80352200
+				-26.36110000 -25.96483000 1.81222400
+				-26.06827000 -22.71923000 1.80806200
+				-32.10064000 -25.46427000 1.81222400
+				-31.84416000 -22.21573000 1.81222400
+				-20.15908000 -30.82810000 1.81222400
+				4.69947800 -27.39460000 -6.19315200
+				3.80280000 -27.31533000 -6.19315200
+				4.39856600 -30.82076000 -6.19334100
+				-31.57556000 -18.82333000 1.84305800
+				-25.75928000 -19.33124000 1.84305800
+				-31.53719000 -18.38589000 1.83019500
+				-25.71889000 -18.89526000 1.83019500
+				-29.80240000 -32.05089000 1.21823800
+				-29.95589000 -32.03768000 1.21994100
+				-30.04879000 -34.91924000 1.03115200
+				-30.20833000 -34.90456000 1.03323300
+				-32.06631000 -34.74162000 1.05725700
+				-30.74351000 -31.97456000 1.22845300
+				-29.49341000 -34.96768000 1.02377400
+				-27.61322000 -35.13356000 0.99937150
+				-27.41530000 -32.24172000 1.19251100
+				-27.29009000 -32.25200000 1.19118700
+				-27.46983000 -35.14677000 0.99747980
+				-19.76123000 -30.86187000 1.81222400
+				-18.23042000 -30.99545000 1.81222400
+				-19.42195000 -26.95422000 1.81222400
+				-15.85947000 -27.26542000 1.81203500
+				-35.80045000 -32.83623000 1.20802300
+				-36.79406000 -32.06116000 1.26496300
+				-35.99230000 -33.01679000 1.19932200
+				-37.97146000 -30.66516000 1.39094800
+				-38.56318000 -30.67250000 1.38773200
+				-32.81152000 -31.81015000 1.25058600
+				-33.31843000 -31.76905000 1.25645000
+				-33.07406000 -34.65060000 1.06482300
+				-17.99615000 -36.03927000 0.87527770
+				-14.13680000 -34.84877000 0.93240630
+				-16.94801000 -33.11221000 1.08903700
+				-14.09036000 -34.71519000 0.94262130
+				-18.13752000 -35.99523000 0.88019610
+				-17.08736000 -33.06377000 1.09395500
+				-18.30918000 -35.95413000 0.88530350
+				-17.27114000 -33.05349000 1.09622500
+				-19.44214000 -35.85431000 0.89495110
+				-20.24996000 -32.81568000 1.11627700
+				-21.52227000 -35.67082000 0.92086710
+				-20.59127000 -32.78780000 1.12006000
+				-18.01433000 -32.99331000 1.09830600
+				-29.83472000 -34.93832000 1.02831400
+				-26.99322000 -35.18933000 0.99123740
+				-24.68892000 -35.39191000 0.96191640
+				-25.57146000 -32.38852000 1.17321600
+				-13.14319000 -32.64834000 1.10076500
+				-15.99882000 -31.11729000 1.23110200
+				-13.32697000 -32.93752000 1.07863300
+				-13.61778000 -33.39552000 1.04344800
+				-16.54006000 -31.96722000 1.17264900
+				-9.87556700 -28.47647000 1.42178200
+				-12.67264000 -26.71641000 1.55098400
+				-17.67303000 -33.02119000 1.09736000
+				-19.10084000 -35.88514000 0.89211360
+				-25.91276000 -32.36209000 1.17662100
+				-27.33452000 -35.15851000 0.99577740
+				-31.08481000 -31.94813000 1.23204700
+				-32.40559000 -34.71079000 1.06179700
+				-32.48637000 -31.83511000 1.24718100
+				-32.74084000 -34.67996000 1.06671500
+				13.17550000 -27.10689000 -4.12441700
+				18.25263000 -27.52084000 -2.92169100
+				13.25022000 -26.23934000 -4.18570700
+				18.32534000 -26.68265000 -2.98279200
+				8.17511200 -25.79749000 -5.38843400
+				8.09634900 -26.69293000 -5.32714400
+				4.78631800 -26.40228000 -6.08324600
+				4.85296300 -25.50830000 -6.14453600
+				8.02364600 -27.53406000 -5.32771100
+				4.71159500 -27.24487000 -6.08324600
+				-14.78306000 -37.09472000 0.75912890
+				-14.60938000 -37.13582000 0.75421060
+				-13.98736000 -34.86345000 0.92994710
+				-13.79550000 -34.88401000 0.92332620
+				0.54123770 -46.05205000 -0.14963140
+				-0.44026050 -45.39882000 -0.09666455
+				0.64019520 -46.32950000 -0.17043990
+				-0.43218230 -45.82893000 -0.13657890
+				3.14846800 -45.74966000 -0.05429105
+				4.83882600 -44.51806000 0.02988845
+				3.11413600 -45.44433000 -0.02969929
+				5.40631800 -44.65458000 0.10971710
+				3.11413600 -46.05353000 -0.08531452
+				5.16599200 -45.46782000 0.06923528
+				3.01517800 -46.32950000 -0.11539210
+				4.74592700 -46.13426000 0.00000000
+				2.85967400 -46.57464000 -0.14338890
+				4.33394000 -46.69941000 -0.09496205
+				2.65368000 -46.78015000 -0.16873740
+				4.50762100 -47.27631000 -0.16571070
+				2.40931500 -46.93575000 -0.18992410
+				-0.08078174 -47.27631000 -0.26975280
+				1.24605800 -46.93575000 -0.21697500
+				-0.39179140 -46.68473000 -0.21016500
+				1.00169300 -46.78015000 -0.20713840
+				-0.62403900 -46.09316000 -0.16646730
+				0.79570010 -46.57464000 -0.19143740
+				3.50390800 -30.74149000 -6.19334100
+				4.31374500 -31.80428000 -6.19145000
+				3.41706700 -31.72648000 -6.19145000
+				3.99869600 -35.39925000 -6.18823400
+				3.10201900 -35.31998000 -6.18388300
+				10.57635000 -22.49610000 1.81638600
+				7.54501400 -22.23187000 1.81638600
+				10.41479000 -24.34717000 1.81638600
+				7.37739200 -24.08588000 1.81638600
+				28.17061000 -25.89731000 1.81638600
+				33.21947000 -26.33916000 1.81638600
+				28.33217000 -24.04331000 1.81638600
+				33.38305000 -24.48369000 1.81638600
+				13.69654000 -24.63342000 1.81638600
+				13.86215000 -22.78235000 1.81638600
+				20.75081000 -25.24995000 1.81638600
+				22.66130000 -25.41582000 1.81638600
+				20.91439000 -23.39742000 1.81638600
+				22.82488000 -23.56329000 1.81638600
+				26.91849000 -25.78868000 1.81638600
+				27.07400000 -23.93468000 1.81827700
+				-32.90240000 -34.66528000 1.06955300
+				-32.64592000 -31.82336000 1.24888300
+				-14.92846000 -37.06095000 0.76329060
+				3.78866300 -26.31567000 -6.14453600
+				3.71596000 -27.15679000 -6.14453600
+				3.85530900 -25.42023000 -6.14453600
+				-39.30637000 -30.39066000 1.38659700
+				-37.08892000 -32.14630000 1.26250300
+				-36.95966000 -29.94441000 1.40702700
+				-34.42514000 -31.38592000 1.28425800
+				-36.66077000 -29.37338000 1.43124100
+				-34.28579000 -29.78146000 1.37884100
+				4.94586200 -29.66256000 0.66057260
+				1.30058600 -29.34989000 0.75685890
+				4.92566600 -29.87835000 0.65111430
+				1.28241000 -29.57449000 0.75118390
+				5.18214800 -26.97037000 0.78977400
+				1.52677500 -26.65036000 0.78977400
+				-15.18697000 -39.13514000 0.60609250
+				-15.16879000 -38.98835000 0.61725340
+				-18.38996000 -38.86798000 0.67230110
+				-18.26677000 -37.79932000 0.74891390
+				-13.68241000 -33.57314000 1.02982800
+				-16.60469000 -32.14924000 1.15940700
+				-52.85953000 -3.81222700 5.50931200
+				-52.39908000 -4.28196600 5.50931200
+				-50.30279000 -1.62647200 5.50931200
+				-49.59797000 -2.34722800 5.50931200
+				-51.94064000 -4.75170500 5.50931200
+				-49.24455000 -2.70687200 5.50931200
+				-51.48220000 -5.21997600 5.50931200
+				-43.36969000 -5.39025700 5.50931200
+				-43.87054000 -5.33300800 5.50931200
+				-43.82409000 -8.71659800 5.50931200
+				-44.47641000 -8.64320100 5.50931200
+				-42.86885000 -5.44603900 5.50931200
+				-43.16976000 -8.79146200 5.50931200
+				-42.36598000 -5.50328800 5.50931200
+				-42.51745000 -8.86485900 5.50931200
+				-44.84800000 -5.08345800 5.50931200
+				-45.33673000 -4.95868400 5.50931200
+				-45.75074000 -8.31878700 5.50931200
+				-46.38689000 -8.15584700 5.50931200
+				-44.35927000 -5.20823300 5.50931200
+				-45.11458000 -8.48026000 5.50931200
+				-10.59856000 -2.37071500 4.51656100
+				-5.20840300 1.40334600 4.50596800
+				-12.28892000 -0.00587174 4.51656100
+				-6.87452600 3.78140100 4.50596800
+				-14.92846000 3.67717700 4.45489300
+				-9.48781500 7.51582600 4.44316500
+				-26.84579000 -10.19040000 4.50918400
+				-26.36312000 -9.85131200 4.50918400
+				-29.32781000 -6.83030200 4.50918400
+				-47.24116000 -13.28628000 2.88650600
+				-47.29367000 -11.05061000 2.88650600
+				-47.40273000 -13.27160000 2.86948100
+				-47.45725000 -11.03006000 2.87553400
+				-34.22722000 -15.35313000 4.48326800
+				-35.62474000 -10.80107000 4.49537500
+				-35.20670000 -14.86724000 4.46889100
+				-36.20032000 -10.97722000 4.46945900
+				-32.33895000 -17.78697000 4.51958900
+				-33.29621000 -18.47543000 4.51410200
+				-35.41673000 -16.68602000 4.51580500
+				-30.98586000 -13.08517000 4.50918400
+				-33.41940000 -9.79112600 4.50918400
+				-28.90977000 -11.63338000 4.50918400
+				-31.33928000 -8.34374200 4.50918400
+				-24.06084000 -8.24098700 4.50918400
+				-21.54449000 -6.48093200 4.50918400
+				-26.61354000 -4.78693600 4.50918400
+				-24.16182000 -2.93587000 4.50918400
+				-28.85726000 -6.47506100 4.50918400
+				-15.39700000 -32.81715000 -1.09414400
+				-15.39700000 -32.81715000 -6.19334100
+				-16.01902000 -32.76284000 -1.09414400
+				-16.01902000 -32.76284000 -6.19334100
+				-15.45355000 -33.46011000 -1.09414400
+				-15.45355000 -33.46011000 -6.19334100
+				-16.07557000 -33.40580000 -1.09414400
+				-16.07557000 -33.40580000 -6.19334100
+				-50.90461000 -0.81617180 5.50931200
+				-51.20350000 -0.41102180 5.50931200
+				-53.64513000 -2.75531400 5.50931200
+				-54.03692000 -2.22685700 5.50931200
+				-50.60370000 -1.22132200 5.50931200
+				-53.25132000 -3.28377000 5.50931200
+				-51.69022000 0.47120710 5.50931200
+				-51.93256000 0.91452350 5.50931200
+				-54.66904000 -1.07452800 5.50931200
+				-54.98611000 -0.49762990 5.50931200
+				-51.44585000 0.02935870 5.50931200
+				-54.35399000 -1.64995900 5.50931200
+				-49.94937000 -1.98611600 5.50931200
+				-50.96318000 -5.62219100 5.50931200
+				-48.84670000 -3.01660600 5.50931200
+				-48.21458000 -7.41307100 5.50931200
+				-47.60670000 -7.66115200 5.50931200
+				-46.73829000 -4.38912500 5.50931200
+				-46.26976000 -4.57848900 5.50931200
+				-46.99680000 -7.90776500 5.50931200
+				-45.80325000 -4.76932000 5.50931200
+				-56.13725000 3.26468700 5.50931200
+				-52.81510000 3.80048400 5.50931200
+				-56.19783000 3.91791800 5.50931200
+				-52.86155000 4.30251800 5.50931200
+				-56.31901000 5.22731600 5.50931200
+				-56.25842000 4.57261800 5.50931200
+				-52.95445000 5.30805200 5.50931200
+				-52.90800000 4.80455100 5.50931200
+				-55.69093000 1.34316000 5.50931200
+				-52.47178000 2.32667700 5.50931200
+				-55.83835000 1.98318000 5.50931200
+				-52.58689000 2.81843500 5.50931200
+				-55.98781000 2.62320000 5.50931200
+				-52.69998000 3.31019300 5.50931200
+				-55.45464000 0.72956360 5.50931200
+				-52.29204000 1.85547000 5.50931200
+				-4.95394000 -46.64951000 -0.23286510
+				-6.00612200 -44.98487000 -0.06583027
+				-7.14716400 -47.74605000 -0.26653690
+				-8.24579600 -46.07994000 -0.09836707
+				-18.04260000 -36.16845000 0.86600850
+				-18.09511000 -36.31671000 0.85522600
+				-16.90358000 -32.98303000 1.09849500
+				-18.22840000 -37.45876000 0.77331640
+				-15.02136000 -39.00156000 0.61422660
+				-14.82951000 -39.01918000 0.61006500
+				-35.75602000 -20.58338000 4.51410200
+				-33.49816000 -20.76981000 4.51410200
+				-35.58234000 -18.57965000 4.51410200
+				-34.85530000 -33.57608000 1.14843600
+				-35.00273000 -33.80361000 1.13462600
+				-33.10839000 -35.10713000 1.02623300
+				-33.10032000 -34.96181000 1.04401500
+				-34.25146000 -31.69418000 1.26704300
+				-33.65771000 -31.74116000 1.26023300
+				-34.45139000 -31.68391000 1.26647600
+				-34.43927000 -31.54886000 1.27479900
+				-33.08820000 -34.78565000 1.05574300
+				-37.47667000 -30.45084000 1.39019100
+				-33.12253000 -35.37723000 0.99142650
+				-33.31439000 -18.67360000 4.51410200
+				4.71361500 -32.31658000 0.55671980
+				4.91354900 -30.02807000 0.64525010
+				2.01752400 -31.99951000 0.64014260
+				13.85407000 -24.64663000 1.81638600
+				18.46873000 -25.05031000 1.81638600
+				14.01361000 -22.79556000 1.81638600
+				18.63029000 -23.19777000 1.81638600
+				26.80136000 -23.90972000 1.81827700
+				26.65191000 -25.76519000 1.81638600
+				60.70344000 -10.72473000 1.81638600
+				62.33927000 -13.04554000 1.81638600
+				64.20734000 -8.26740900 1.81789900
+				66.17034000 -10.33133000 1.75509500
+				56.82187000 -16.87685000 1.81638600
+				55.18807000 -14.57072000 1.81638600
+				52.61113000 -19.80097000 1.81638600
+				50.97933000 -17.50659000 1.81638600
+				55.28904000 -14.50026000 1.81638600
+				56.92285000 -16.80639000 1.81638600
+				60.59034000 -10.80253000 1.81638600
+				62.22617000 -13.12481000 1.81638600
+				45.17517000 -21.55516000 1.81638600
+				46.80494000 -23.83339000 1.81619600
+				50.87230000 -17.58146000 1.81638600
+				52.50409000 -19.87584000 1.81638600
+				-9.26364600 30.93526000 -2.17580400
+				-6.87654600 27.59277000 -3.61555700
+				-5.90918400 33.22084000 -2.21969100
+				-3.56045500 29.92239000 -3.64450000
+				-40.27575000 -11.84624000 3.97989400
+				-42.48312000 -11.89908000 3.54745700
+				-40.22325000 -14.08190000 3.97989400
+				-42.44071000 -14.13475000 3.54575500
+				-9.10006300 -43.67106000 0.13298470
+				-6.67459100 -43.10151000 0.10215040
+				-12.44847000 -35.00731000 0.89003270
+				-13.45420000 -37.40739000 0.71202620
+				-1.16123700 -32.61751000 0.71183700
+				-1.88221400 -30.38185000 0.87527770
+				-1.95895700 -32.90229000 0.72867300
+				-2.99498300 -30.78259000 0.91727290
+				-1.56110700 -30.26588000 0.86298190
+				-0.83811050 -32.50155000 0.70502710
+				-0.58970660 -29.91798000 0.82647250
+				-0.05048859 -32.21970000 0.68838030
+				0.68058620 -29.78146000 0.76915480
+				1.54697000 -32.03768000 0.64846590
+				1.28644900 -29.71541000 0.74475210
+				1.88625400 -31.99951000 0.64260180
+				0.34130280 -29.81816000 0.78447740
+				-9.31615400 -41.76568000 0.28810200
+				-0.02423452 -38.04594000 0.43830090
+				-0.88657960 -38.54650000 0.38817160
+				0.43824090 -40.53409000 0.27656280
+				-55.22037000 0.11449890 5.50931200
+				-52.11230000 1.38573100 5.50931200
+				-57.91849000 17.42439000 4.89735600
+				-57.20962000 18.10991000 4.93405400
+				-60.09757000 19.49124000 4.89735600
+				-59.36649000 20.25750000 4.93613500
+				-58.83334000 16.47316000 4.84855000
+				-61.07907000 18.45781000 4.84855000
+				-59.73203000 15.55864000 4.80523100
+				-62.04845000 17.46696000 4.80523100
+				-60.41262000 14.80412000 4.76058800
+				-62.88252000 16.58620000 4.76058800
+				-61.06696000 14.06722000 4.71443100
+				-63.62571000 15.71865000 4.71443100
+				-62.40187000 -1.71895200 3.65622800
+				-65.44128000 -1.95235300 3.65622800
+				-62.37966000 -2.83311400 3.59928900
+				-65.41100000 -2.85660100 3.59928900
+				-62.49275000 -0.58423810 3.72678700
+				-65.52206000 -0.91452350 3.72678700
+				-62.96533000 3.16780400 3.96400400
+				-65.93204000 2.56301400 3.96400400
+				-62.83809000 2.40154100 3.92408900
+				-65.83711000 1.93473800 3.92390000
+				-48.44683000 -3.32487300 5.50931200
+				-45.92240000 1.01434300 5.44802200
+				-46.41517000 1.68812500 5.44802200
+				-46.89784000 2.34869600 5.44802200
+				-47.38859000 3.01954200 5.44802200
+				-47.90559000 3.72855500 5.44802200
+				-42.59015000 -14.13768000 3.51624400
+				-42.64468000 -11.90202000 3.51624400
+				-44.99745000 -11.63485000 3.15625800
+				-44.94494000 -13.87052000 3.15625800
+				-49.57171000 -13.07490000 2.63794000
+				-50.58350000 -10.64253000 2.66839600
+				-52.11028000 -10.92731000 2.57759500
+				-50.75921000 -13.36408000 2.55886800
+				-29.18846000 -15.52048000 4.50937300
+				-11.18221000 24.56736000 -3.57810200
+				-7.86612200 26.89697000 -3.60704500
+				-13.46430000 27.75425000 -2.21117800
+				-10.25120000 30.23652000 -2.17012900
+				-30.02051000 38.74614000 5.51858100
+				-29.18442000 39.35534000 5.52009500
+				-31.77954000 41.15356000 5.73707000
+				-32.58130000 40.56785000 5.72742200
+				-36.62442000 37.63932000 5.66972700
+				-30.82631000 38.15750000 5.51725700
+				-34.86742000 35.21870000 5.50931200
+				-43.50501000 32.64100000 5.55225300
+				-41.74194000 30.21450000 5.49304400
+				-42.17008000 33.61571000 5.57722300
+				-40.39289000 31.19655000 5.49663800
+				-33.19524000 41.40898000 5.82143900
+				-37.23231000 38.47457000 5.74974400
+				-41.07953000 34.40692000 5.59632900
+				-41.68539000 35.23044000 5.64002700
+				-42.77595000 34.43482000 5.61297600
+				-32.39146000 41.98881000 5.83297800
+				-30.79804000 41.87285000 5.74879800
+				-27.03361000 44.60467000 5.67199600
+				-31.40592000 42.69929000 5.84716600
+				-27.64351000 45.43405000 5.76204000
+				-37.43830000 37.05068000 5.65818700
+				-38.04416000 37.88593000 5.73536700
+				-42.14787000 29.91798000 5.49209800
+				-43.91295000 32.34301000 5.54468700
+				-45.37914000 27.56782000 5.48320700
+				-29.63882000 48.09542000 6.09970400
+				-33.28006000 45.23441000 6.19353100
+				-44.14924000 36.29029000 5.69431800
+				-45.40136000 35.26127000 5.63681100
+				-44.10481000 33.47038000 5.57873700
+				-51.55692000 22.48583000 5.29252600
+				-53.75823000 20.62008000 5.10146700
+				-49.50911000 19.64831000 5.26150300
+				-51.41353000 17.77816000 5.10146700
+				-56.00194000 23.34163000 5.10146700
+				-54.06318000 20.99000000 5.10146700
+				-53.62090000 25.28518000 5.22726300
+				-51.84168000 22.87189000 5.28344600
+				-39.31849000 31.97896000 5.49928700
+				-35.67928000 34.62712000 5.50779900
+				-29.03094000 39.46543000 5.52028400
+				-25.29074000 42.18551000 5.45691300
+				-47.14220000 29.99285000 5.47961300
+				-58.58898000 21.00762000 4.97718400
+				-56.52904000 18.76314000 4.97718400
+				-57.72057000 21.80617000 5.01861200
+				-55.66064000 19.56170000 5.01861200
+				-56.85015000 22.60473000 5.06003900
+				-54.79223000 20.36026000 5.06003900
+				-63.20161000 4.32160100 4.04250800
+				-66.16630000 3.71681100 4.04250800
+				-65.76441000 1.30352600 3.88322900
+				-62.73510000 1.63234400 3.88322900
+				-62.60786000 0.46239950 3.80075200
+				-65.63718000 0.13211410 3.80075200
+				-30.94950000 41.76275000 5.74690700
+				-31.55739000 42.58919000 5.84489500
+				-43.08898000 37.16371000 5.74293400
+				-54.46709000 20.00649000 5.06003900
+				-52.06585000 17.22622000 5.06003900
+				-55.33549000 19.20793000 5.01861200
+				-52.84337000 16.49372000 4.95807800
+				-56.20389000 18.41084000 4.97718400
+				-53.77236000 15.74507000 4.91589400
+				-62.38370000 -3.85186100 3.55199700
+				-65.40292000 -3.63754300 3.55199700
+				6.28683800 -45.85095000 0.01986258
+				6.90279900 -44.88358000 0.11936460
+				5.47700200 -46.65978000 -0.07945033
+				3.41302800 -47.66825000 -0.23967510
+				2.13061800 -47.03557000 -0.20619250
+				1.82768700 -47.06933000 -0.21678590
+				1.82768700 -47.12218000 -0.20259830
+				2.21342000 -47.80624000 -0.29642540
+				2.01954300 -47.78422000 -0.29642540
+				1.52273600 -47.03557000 -0.22038000
+				1.01381100 -47.66825000 -0.29604700
+				-31.81185000 -21.81498000 1.81222400
+				-26.03393000 -22.31848000 1.80749500
+				-13.61172000 -39.13074000 0.57904150
+				4.43693700 -38.06062000 0.50829290
+				3.59680700 -40.81153000 0.30512710
+				5.38208300 -38.65073000 0.49561870
+				4.41068300 -40.88199000 0.32423300
+				3.38475500 -37.65400000 0.49959120
+				2.81928300 -40.74400000 0.29056120
+				2.20534100 -37.50721000 0.49788870
+				2.03166100 -40.67501000 0.28431870
+				1.05218200 -37.65547000 0.48994370
+				1.23596100 -40.60455000 0.27921110
+				4.44501500 -44.19805000 0.03480681
+				3.01517800 -45.16689000 -0.00983671
+				4.04514600 -43.92942000 0.11558130
+				2.85967400 -44.92175000 0.00586419
+				3.62710000 -43.71070000 0.12825550
+				2.65166000 -44.71623000 0.02005175
+				3.22521100 -43.47583000 0.18311410
+				2.40931500 -44.56063000 0.02137592
+				2.82534100 -43.20132000 0.20089580
+				2.13465700 -44.46228000 0.01513339
+				2.40931500 -42.88131000 0.20997580
+				1.82768700 -44.42705000 0.01834924
+				2.03771900 -42.34992000 0.19219410
+				1.52273600 -44.46669000 0.01116088
+				1.37732900 -42.33377000 0.12295880
+				1.25211700 -44.56357000 -0.00094584
+				7.29459100 -43.78703000 0.21621840
+				-36.45276000 -28.55720000 1.47418200
+				-34.19491000 -28.74510000 1.47418200
+				-0.49680770 -44.83220000 -0.04180600
+				0.50690540 -45.74819000 -0.12579630
+				-0.44631910 -44.25970000 0.00472919
+				0.54123770 -45.44433000 -0.09988041
+				-0.36351780 -43.61968000 0.04672436
+				0.63009750 -45.19625000 -0.07699115
+				-0.39583050 -42.69635000 0.11028460
+				0.79570010 -44.92175000 -0.05012937
+				0.21609110 -42.45268000 0.07963949
+				1.00169300 -44.71770000 -0.02780761
+				0.79570010 -42.36460000 0.10536630
+				-35.56416000 -18.38001000 4.51410200
+				7.71061700 -31.10995000 -5.43724000
+				8.01152900 -27.68378000 -5.43724000
+				7.31074700 -35.68843000 -5.43724000
+				7.62579600 -32.09493000 -5.43724000
+				-19.81374000 -8.82375700 4.50937300
+				-19.79556000 -5.25814300 4.51183200
+				-48.04898000 -3.63313900 5.50931200
+				-45.39934000 0.29799080 5.44802200
+				-44.82377000 -0.49029020 5.44802200
+				-44.15732000 -1.40187800 5.44802200
+				-43.29901000 -2.26795900 5.44802200
+				-42.23673000 -2.79935200 5.44802200
+				-22.32807000 -10.58675000 4.50937300
+				-18.07289000 -7.60537100 4.51202200
+				-6.92703400 -41.05227000 0.27069860
+				-9.35654400 -41.42659000 0.31590960
+				-18.40612000 -39.00744000 0.66227520
+				-15.20514000 -39.28781000 0.59455320
+				-3.61700200 -47.95744000 -0.36452570
+				-4.00071600 -48.09395000 -0.38287490
+			}
+			VertexColors null
+			Materials 3
+			{
+				Material 0
+				{
+					MaterialIndex 0
+					ProcId 71
+					RoomId 0
+					PedDensity 0
+					PolyFlags FORMATS_EMPTY_FLAGS
+					MaterialColorIndex 0
+				}
+				Material 1
+				{
+					MaterialIndex 0
+					ProcId 84
+					RoomId 0
+					PedDensity 0
+					PolyFlags FORMATS_EMPTY_FLAGS
+					MaterialColorIndex 0
+				}
+				Material 2
+				{
+					MaterialIndex 0
+					ProcId 69
+					RoomId 0
+					PedDensity 0
+					PolyFlags FORMATS_EMPTY_FLAGS
+					MaterialColorIndex 0
+				}
+			}
+			MaterialColors null
+			Margin 0.00500000
+		}
+	}
+	ChildTransforms 1
+	{
+		Matrix 0
+		{
+			1.00000000 0.00000000 0.00000000
+			0.00000000 1.00000000 0.00000000
+			0.00000000 0.00000000 1.00000000
+			0.00000000 0.00000000 0.00000000
+		}
+	}
+	ChildFlags 1
+	{
+		Item
+		{
+			Flags1 FORMATS_EMPTY_FLAGS
+			Flags2 FORMATS_EMPTY_FLAGS
+		}
+	}
+}

@@ -1,0 +1,38 @@
+Version 165 32
+{
+	Shaders
+	{
+		normal.sps
+		{
+			DiffuseSampler Prop_Telegraph_07
+			BumpSampler Prop_Telegraph_07_n
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 0.25000000
+			SpecularIntensityMult 0.05000000
+			SpecularFalloffMult 10.00000000
+			SpecularFresnel 0.75000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		Center 0.00000000 -0.12424300 0.00000000
+		Radius 0.61601000
+		AABBMin -0.18028300 -0.25058400 -0.57533000
+		AABBMax 0.18028300 0.00209700 0.57533000
+		High 15.00000000
+		{
+			prop_telegwall_01a\prop_telegwall_01a_high.mesh 0
+		}
+		Med 9998.00000000
+		{
+			prop_telegwall_01a\prop_telegwall_01a_med.mesh 0
+		}
+		Low 9998.00000000
+		Vlow 9998.00000000
+	}
+	Joints null
+	Light null
+	Bound prop_telegwall_01a\prop_telegwall_01a.bound
+}

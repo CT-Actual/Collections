@@ -1,0 +1,39 @@
+Version 165 30
+{
+	Attribute
+	{
+		Position -51.14233000 -15.02466000 2.79932000
+		Color 255 255 255
+		Flashiness 0
+		Intensity 2.00000000
+		Flags 0
+		BoneTag 0
+		LightType 4
+		GroupId 0
+		TimeFlags 14680191
+		Falloff 6.00000000
+		FalloffExponent 64.00000000
+		CullingPlane -0.90296350 -0.34614540 0.25463730 6.00000000
+		ShadowBlur 0
+		VolumeIntensity 1.00000000
+		VolumeSizeScale 1.00000000
+		VolumeOuterColor 255 255 255
+		LightHash 51
+		VolumeOuterIntensity 1.00000000
+		CoronaSize 0.00000000
+		VolumeOuterExponent 1.00000000
+		LightFadeDistance 0
+		ShadowFadeDistance 0
+		SpecularFadeDistance 0
+		VolumetricFadeDistance 0
+		ShadowNearClip 0.01000000
+		CoronaIntensity 1.00000000
+		CoronaZBias 0.10000000
+		Direction 0.96615660 -0.25795660 0.00002539
+		Tangent 0.25795680 0.96615650 0.00000027
+		ConeInnerAngle 10.00000000
+		ConeOuterAngle 25.00000000
+		Extents 11.50001000 11.50001000 11.50001000
+		ProjectedTextureHash 0
+	}
+}

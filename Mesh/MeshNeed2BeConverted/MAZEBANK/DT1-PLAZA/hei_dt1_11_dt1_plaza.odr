@@ -1,0 +1,332 @@
+Version 165 32
+{
+	Shaders
+	{
+		normal_spec.sps
+		{
+			DiffuseSampler dt1_11_window_wall
+			BumpSampler dt1_11_window_wall_N
+			SpecSampler dt1_11_window_wall_S
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 0.90000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 150.00000000
+			SpecularFresnel 0.85000000
+		}
+		normal_spec.sps
+		{
+			DiffuseSampler DT1_11_CMK_Misc_01
+			BumpSampler DT1_11_CMK_Misc_01_N
+			SpecSampler DT1_11_DC_Misc_01_S
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 400.00000000
+			SpecularFresnel 0.70000000
+		}
+		spec.sps
+		{
+			DiffuseSampler DT1_11_trims_MLW
+			SpecSampler DT1_11_trims_MLW_N
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 0.50000000
+			SpecularFalloffMult 20.00000000
+			SpecularFresnel 0.85000000
+		}
+		normal_cutout.sps
+		{
+			DiffuseSampler OS_MLZL_railing_0001OS_MLZL_railing_0001_A
+			BumpSampler OS_MLZL_railing_0001_N
+			HardAlphaBlend 0.10000000
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecularIntensityMult 0.10000000
+			SpecularFalloffMult 10.00000000
+			SpecularFresnel 0.95000000
+		}
+		default.sps
+		{
+			DiffuseSampler rsn_cmk_wall_hires_overlay0009
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+		}
+		default.sps
+		{
+			DiffuseSampler dt1_11_dc_doors_02_mlw
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+		}
+		normal_detail.sps
+		{
+			DiffuseSampler rsn_CMK_concreteslabs_0002
+			DetailSampler IM_Wall_plaster39_N
+			BumpSampler rsn_cmk_concreteslabs_0002_N
+			DetailSettings 0.25000000 0.15000000 6.00000000 6.00000000
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 0.50000000
+			SpecularIntensityMult 0.12500000
+			SpecularFalloffMult 20.00000000
+			SpecularFresnel 0.90000000
+		}
+		default.sps
+		{
+			DiffuseSampler DT1_11_CMK_Loading_01
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+		}
+		spec.sps
+		{
+			DiffuseSampler SJM_door7
+			SpecSampler SJM_door7
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 40.00000000
+			SpecularFresnel 0.35000000
+		}
+		normal_decal.sps
+		{
+			DiffuseSampler IM_DT1_11_Sign_01IM_DT1_11_Sign_01_a
+			BumpSampler hei_dt1_11_dt1_plaza\im_dt1_11_sign_01_n.otx
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 220.00000000
+			SpecularFresnel 0.75000000
+		}
+		normal_spec.sps
+		{
+			DiffuseSampler DT1_11_DC_Helipad_01
+			BumpSampler IM_Wall_plaster39_N
+			SpecSampler IM_Wall_plaster39_S
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 0.35000000
+			SpecularFalloffMult 35.00000000
+			SpecularFresnel 0.90000000
+		}
+		normal_spec_detail.sps
+		{
+			DiffuseSampler DT1_11_CMK_Wall_03
+			DetailSampler ENV_SMOOTH_CONCRETE2
+			BumpSampler DT1_11_CMK_Wall_03_N
+			SpecSampler DT1_11_DC_Wall_03_S
+			DetailSettings 1.00000000 1.00000000 10.00000000 10.00000000
+			UseTessellation 0.00000000
+			Bumpiness 0.25000000
+			SpecMapIntMask 0.00000000 0.00000000 1.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 30.00000000
+			SpecularFresnel 0.96000000
+		}
+		normal_spec_detail.sps
+		{
+			DiffuseSampler DT1_11_CMK_Wall_04
+			DetailSampler ENV_NOISE_CONCRETE
+			BumpSampler DT1_11_CMK_Wall_04_N
+			SpecSampler DT1_11_DC_Wall_04_S
+			DetailSettings 0.35000000 0.15000000 8.00000000 8.00000000
+			UseTessellation 0.00000000
+			Bumpiness 0.07000000
+			SpecMapIntMask 0.00000000 0.00000000 1.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 50.00000000
+			SpecularFresnel 0.96000000
+		}
+		normal_spec_tnt.sps
+		{
+			DiffuseSampler DT1_11_CMK_Wall_03
+			TintPaletteSampler hei_dt1_11_dt1_plaza\dt1_11_dt1_plaza_pal.otx
+			BumpSampler DT1_11_CMK_Wall_03_N
+			SpecSampler DT1_11_DC_Wall_03_S
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 0.56000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 0.35000000
+			SpecularFalloffMult 50.00000000
+			SpecularFresnel 0.90000000
+			TintPaletteSelector 0.00000000 0.00000000
+		}
+		spec_const.sps
+		{
+			DiffuseSampler hei_dt1_11_dt1_plaza\dt1_11_marble_0001.otx
+			UseTessellation 0.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 250.00000000
+			SpecularFresnel 0.80000000
+		}
+		normal_decal_tnt.sps
+		{
+			DiffuseSampler IM_WallOverlay01
+			TintPaletteSampler hei_dt1_11_dt1_plaza\dt1_11_dt1_plaza_pal.otx
+			BumpSampler CMK_WallOverlay01_N
+			UseTessellation 0.00000000
+			Bumpiness 0.50000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 190.00000000
+			SpecularFresnel 0.85000000
+			TintPaletteSelector 0.00000000 0.00000000
+		}
+		normal_spec_tnt.sps
+		{
+			DiffuseSampler hei_dt1_11_dt1_plaza\dt1_11_dc_sculpture_01.otx
+			TintPaletteSampler hei_dt1_11_dt1_plaza\dt1_11_dt1_plaza_pal.otx
+			BumpSampler IM_Wall_plaster39_N
+			SpecSampler IM_Wall_plaster39_S
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 0.40000000
+			SpecMapIntMask 1.00000000 1.00000000 1.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 190.00000000
+			SpecularFresnel 0.85000000
+			TintPaletteSelector 0.00000000 0.00000000
+		}
+		normal_spec.sps
+		{
+			DiffuseSampler hei_dt1_11_dt1_plaza\im_wall_tiles007.otx
+			BumpSampler hei_dt1_11_dt1_plaza\im_wall_tiles007_n.otx
+			SpecSampler hei_dt1_11_dt1_plaza\im_wall_tiles007_s.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 0.70000000
+			SpecMapIntMask 0.00000000 0.00000000 1.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 220.00000000
+			SpecularFresnel 0.90000000
+		}
+		normal_spec.sps
+		{
+			DiffuseSampler hei_dt1_11_dt1_plaza\im_wall_tiles009.otx
+			BumpSampler hei_dt1_11_dt1_plaza\im_wall_tiles007_n.otx
+			SpecSampler hei_dt1_11_dt1_plaza\im_wall_tiles007_s.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 0.40000000
+			SpecMapIntMask 0.00000000 0.00000000 1.00000000
+			SpecularIntensityMult 0.29500000
+			SpecularFalloffMult 120.00000000
+			SpecularFresnel 0.30000000
+		}
+		normal.sps
+		{
+			DiffuseSampler IM_DT1_11_Sign_01
+			BumpSampler hei_dt1_11_dt1_plaza\im_dt1_11_sign_01_n.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecularIntensityMult 0.65000000
+			SpecularFalloffMult 220.00000000
+			SpecularFresnel 0.75000000
+		}
+		normal_spec_tnt.sps
+		{
+			DiffuseSampler hei_dt1_11_dt1_plaza\rsn_am_ivy_1.otx
+			TintPaletteSampler hei_dt1_11_dt1_plaza\dt1_11_dt1_plaza_pal.otx
+			BumpSampler RSN_AM_Ivy_1_N
+			SpecSampler RSN_AM_Ivy_1_S
+			HardAlphaBlend 0.01000000
+			UseTessellation 0.00000000
+			Bumpiness 0.55000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 0.50000000
+			SpecularFalloffMult 16.00000000
+			SpecularFresnel 0.93000000
+			TintPaletteSelector 0.00000000 0.00000000
+		}
+		normal_spec_cutout_tnt.sps
+		{
+			DiffuseSampler RSN_AM_Ivy_1RSN_AM_Ivy_1_A
+			TintPaletteSampler hei_dt1_11_dt1_plaza\dt1_11_dt1_plaza_pal.otx
+			BumpSampler RSN_AM_Ivy_1_N
+			SpecSampler RSN_AM_Ivy_1_S
+			HardAlphaBlend 0.01000000
+			UseTessellation 0.00000000
+			Bumpiness 0.55000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 0.50000000
+			SpecularFalloffMult 16.00000000
+			SpecularFresnel 0.93000000
+			TintPaletteSelector 0.00000000 0.00000000
+		}
+		normal_spec.sps
+		{
+			DiffuseSampler hei_dt1_11_dt1_plaza\im_wall_tiles009.otx
+			BumpSampler hei_dt1_11_dt1_plaza\im_wall_tiles007_n.otx
+			SpecSampler hei_dt1_11_dt1_plaza\im_wall_tiles007_s.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 0.40000000
+			SpecMapIntMask 0.00000000 0.00000000 1.00000000
+			SpecularIntensityMult 0.20000000
+			SpecularFalloffMult 270.00000000
+			SpecularFresnel 0.95000000
+		}
+		normal_detail.sps
+		{
+			DiffuseSampler DT1_11_CMK_Loading_01
+			DetailSampler ENV_SMOOTH_CONCRETE2
+			BumpSampler DT1_11_CMK_Loading_01
+			DetailSettings 1.00000000 1.50000000 20.00000000 4.00000000
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 0.20000000
+			SpecularIntensityMult 0.63000000
+			SpecularFalloffMult 150.00000000
+			SpecularFresnel 0.97000000
+		}
+		normal_spec.sps
+		{
+			DiffuseSampler hei_dt1_11_dt1_plaza\monkey_mosaic_d_05.otx
+			BumpSampler hei_dt1_11_dt1_plaza\monkey_mosaics_n.otx
+			SpecSampler hei_dt1_11_dt1_plaza\monkey_mosaic_d_05.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 0.12500000
+			SpecularFalloffMult 100.00000000
+			SpecularFresnel 0.97000000
+		}
+		normal.sps
+		{
+			DiffuseSampler hei_dt1_11_dt1_plaza\monkey_mosaics_grout.otx
+			BumpSampler hei_dt1_11_dt1_plaza\monkey_mosaics_grout_n.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecularIntensityMult 0.12500000
+			SpecularFalloffMult 100.00000000
+			SpecularFresnel 0.97000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		Center 1.18386100 -3.62326000 3.30423900
+		Radius 117.54470000
+		AABBMin -76.89402000 -90.27112000 -11.28200000
+		AABBMax 79.26174000 83.02460000 17.89048000
+		High 9998.00000000
+		{
+			hei_dt1_11_dt1_plaza\hei_dt1_11_dt1_plaza_high.mesh 0
+		}
+		Med 9998.00000000
+		Low 9998.00000000
+		Vlow 9998.00000000
+	}
+	Joints null
+	Light hei_dt1_11_dt1_plaza\hei_dt1_11_dt1_plaza.light
+	Bound null
+}

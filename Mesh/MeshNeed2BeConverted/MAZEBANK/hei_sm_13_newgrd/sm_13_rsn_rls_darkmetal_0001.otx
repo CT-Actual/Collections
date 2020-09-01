@@ -1,0 +1,10 @@
+Version 13 30
+{
+	Image sm_13_rsn_rls_darkmetal_0001.dds
+	Type Regular
+	PixelFormat DXT1
+	Levels 7
+	Usage DIFFUSE
+	UsageFlags -
+	ExtraFlags 0
+}

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CPackFileMetaData>
+  <MapDataGroups/>
+  <HDTxdBindingArray>
+    <Item>
+      <assetType>AT_DRB</assetType>
+      <targetAsset>hei_sm_13_newgrd</targetAsset>
+      <HDTxd>hei_sm_13_newgrd+hidr</HDTxd>
+    </Item>
+    <Item>
+      <assetType>AT_DRB</assetType>
+      <targetAsset>hei_sm_13_garagedetails</targetAsset>
+      <HDTxd>hei_sm_13_garagedetails+hidr</HDTxd>
+    </Item>
+    <Item>
+      <assetType>AT_DRB</assetType>
+      <targetAsset>hei_sm_13_garage</targetAsset>
+      <HDTxd>hei_sm_13_garage+hidr</HDTxd>
+    </Item>
+    <Item>
+      <assetType>AT_TXD</assetType>
+      <targetAsset>hei_sm_13_garage_lod</targetAsset>
+      <HDTxd>hei_sm_13_garage_lod+hi</HDTxd>
+    </Item>
+  </HDTxdBindingArray>
+  <imapDependencies/>
+  <imapDependencies_2/>
+  <itypDependencies_2/>
+  <Interiors>
+    <Item>
+      <Name>hei_SM_13_carpark</Name>
+      <Bounds>
+        <Item>hei_SM_13_carpark</Item>
+      </Bounds>
+    </Item>
+  </Interiors>
+</CPackFileMetaData>

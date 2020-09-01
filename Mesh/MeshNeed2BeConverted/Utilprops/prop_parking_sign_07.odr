@@ -1,0 +1,38 @@
+Version 165 32
+{
+	Shaders
+	{
+		reflect.sps
+		{
+			DiffuseSampler prop_parking_sign_07\prop_park_sign_05.otx
+			EnvironmentSampler prop_parking_sign_07\prop_environment_01.otx
+			UseTessellation 0.00000000
+			ReflectivePower 0.45000000
+		}
+		default_detail.sps
+		{
+			DiffuseSampler prop_parking_sign_07\dh_ch02_metal02.otx
+			DetailSampler env_crusty
+			DetailSettings 0.10000000 0.10000000 10.00000000 10.00000000
+			UseTessellation 0.00000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		Center 0.00000000 0.00000000 0.00000000
+		Radius 1.42481300
+		AABBMin -1.10403400 -0.18086300 -0.88232000
+		AABBMax 1.10403400 0.18086300 0.88232100
+		High 9998.00000000
+		{
+			prop_parking_sign_07\prop_parking_sign_07_high.mesh 0
+		}
+		Med 9998.00000000
+		Low 9998.00000000
+		Vlow 9998.00000000
+	}
+	Joints null
+	Light null
+	Bound prop_parking_sign_07\prop_parking_sign_07.bound
+}

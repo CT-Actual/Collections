@@ -1,0 +1,36 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler im_concrete33_lod
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+		}
+		default.sps
+		{
+			DiffuseSampler ap1_03_rsn_mh_wall_0001_lod
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		Center -16.08976000 -50.14551000 0.04482700
+		Radius 40.16024000
+		AABBMin -41.37456000 -81.03632000 -4.34616900
+		AABBMax 9.19505300 -19.25470000 4.43582200
+		High 9998.00000000
+		{
+			hei_dt1_11_garage_lod\hei_dt1_11_garage_lod_high.mesh 0
+		}
+		Med 9998.00000000
+		Low 9998.00000000
+		Vlow 9998.00000000
+	}
+	Joints null
+	Light hei_dt1_11_garage_lod\hei_dt1_11_garage_lod.light
+	Bound null
+}

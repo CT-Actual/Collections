@@ -1,0 +1,30 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler prop_valet_03\prop_valet_03.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+		}
+	}
+	Skeleton prop_valet_03\prop_valet_03.skel
+	LodGroup
+	{
+		Center 0.00000000 0.00000000 0.58073100
+		Radius 0.71527500
+		AABBMin -0.30950900 -0.28031200 0.00000000
+		AABBMax 0.30950900 0.28031200 1.16146100
+		High 9998.00000000
+		{
+			prop_valet_03\prop_valet_03_high.mesh 0
+		}
+		Med 9998.00000000
+		Low 9998.00000000
+		Vlow 9998.00000000
+	}
+	Joints null
+	Light null
+	Bound prop_valet_03\prop_valet_03.bound
+}

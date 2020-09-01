@@ -1,0 +1,30 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler prop_gshotsensor_01\prop_gshotsensor_01.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		Center 0.00000000 0.00000000 0.91727900
+		Radius 1.01873100
+		AABBMin -0.34338400 -0.26934700 -0.00323900
+		AABBMax 0.34338400 0.26934700 1.83779800
+		High 9998.00000000
+		{
+			prop_gshotsensor_01\prop_gshotsensor_01_high.mesh 0
+		}
+		Med 9998.00000000
+		Low 9998.00000000
+		Vlow 9998.00000000
+	}
+	Joints null
+	Light null
+	Bound prop_gshotsensor_01\prop_gshotsensor_01.bound
+}

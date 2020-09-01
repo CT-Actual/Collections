@@ -1,0 +1,68 @@
+Version 165 32
+{
+	Shaders
+	{
+		normal_spec.sps
+		{
+			DiffuseSampler Prop_elecbox_24
+			BumpSampler Prop_Elecbox_24_n
+			SpecSampler Prop_Elecbox_24_s
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.07000000
+			SpecMapIntMask 0.76078400 0.76078400 0.76078400
+			SpecularIntensityMult 0.67500000
+			SpecularFalloffMult 125.00000000
+			SpecularFresnel 0.89000000
+		}
+		normal_spec.sps
+		{
+			DiffuseSampler Prop_Elecbox_18b
+			BumpSampler Prop_Elecbox_18b_n
+			SpecSampler Prop_Elecbox_18b_s
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.43000000
+			SpecMapIntMask 0.83137300 0.83137300 0.83137300
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 183.00000000
+			SpecularFresnel 0.91400000
+		}
+		decal.sps
+		{
+			DiffuseSampler prop_elecbox_24\im_wall_overlay03im_wall_overlay03_a.otx
+			UseTessellation 0.00000000
+			SpecularIntensityMult 0.00000000
+			SpecularFalloffMult 100.00000000
+			SpecularFresnel 0.97000000
+		}
+		emissivenight.sps
+		{
+			DiffuseSampler Prop_Elecbox_18b
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			EmissiveMultiplier 5.00000000
+		}
+	}
+	Skeleton prop_elecbox_24\prop_elecbox_24.skel
+	LodGroup
+	{
+		Center -0.57461500 -0.02033100 1.52265200
+		Radius 5.31281200
+		AABBMin -2.24383500 -4.82878300 0.00000000
+		AABBMax 1.09460400 4.78812000 3.04530300
+		High 60.00000000
+		{
+			prop_elecbox_24\prop_elecbox_24_high.mesh 0
+		}
+		Med 9998.00000000
+		{
+			prop_elecbox_24\prop_elecbox_24_med.mesh 0
+		}
+		Low 9998.00000000
+		Vlow 9998.00000000
+	}
+	Joints null
+	Light prop_elecbox_24\prop_elecbox_24.light
+	Bound prop_elecbox_24\prop_elecbox_24.bound
+}

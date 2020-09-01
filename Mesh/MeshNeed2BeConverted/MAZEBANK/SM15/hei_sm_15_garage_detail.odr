@@ -1,0 +1,155 @@
+Version 165 32
+{
+	Shaders
+	{
+		normal_spec_detail.sps
+		{
+			DiffuseSampler hei_sm_15_garage_detail\ngx_im_dt1_02_carpark_01.otx
+			DetailSampler ENV_SMOOTH_CONCRETE2
+			BumpSampler hei_sm_15_garage_detail\im_dt1_02_carpark_01_n.otx
+			SpecSampler hei_sm_15_garage_detail\im_dt1_02_carpark_01_s.otx
+			DetailSettings 0.25000000 0.15000000 8.00000000 16.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecMapIntMask 0.00000000 0.00000000 1.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 120.00000000
+			SpecularFresnel 0.90000000
+		}
+		emissive.sps
+		{
+			DiffuseSampler hei_sm_15_garage_detail\tl_v_lab_elev_display.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			EmissiveMultiplier 2.00000000
+		}
+		normal_spec_detail.sps
+		{
+			DiffuseSampler hei_sm_15_garage_detail\tl_v_office_aluminium.otx
+			DetailSampler ENV_NOISE_CONCRETE
+			BumpSampler hei_sm_15_garage_detail\tl_v_bank2_chrome_n.otx
+			SpecSampler hei_sm_15_garage_detail\tl_v_office_aluminium.otx
+			DetailSettings 0.00000000 0.02000000 8.00000000 0.00500000
+			UseTessellation 0.00000000
+			Bumpiness 0.00000000
+			SpecMapIntMask 1.00000000 1.00000000 1.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 200.00000000
+			SpecularFresnel 0.20000000
+		}
+		spec.sps
+		{
+			DiffuseSampler hei_sm_15_garage_detail\metal_chrome_dm.otx
+			SpecSampler hei_sm_15_garage_detail\metal_chrome_sm.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			SpecMapIntMask 1.00000000 1.00000000 0.00000000
+			SpecularIntensityMult 0.75000000
+			SpecularFalloffMult 10.00000000
+			SpecularFresnel 0.20000000
+		}
+		default.sps
+		{
+			DiffuseSampler hei_sm_15_garage_detail\dt1_25_rsn_cmk_tp003.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			WetnessMultiplier 0.05500000
+		}
+		normal_spec.sps
+		{
+			DiffuseSampler hei_sm_15_garage_detail\dt1_25_rsn_cmk_tp004.otx
+			BumpSampler hei_sm_15_garage_detail\dt1_25_rsn_cmk_tp004_n.otx
+			SpecSampler hei_sm_15_garage_detail\dt1_25_rsn_cmk_tp004_s.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 100.00000000
+			SpecularFresnel 0.97000000
+		}
+		default.sps
+		{
+			DiffuseSampler hei_sm_15_garage_detail\dt1_25_rsn_cmk_tp007.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+		}
+		emissive.sps
+		{
+			DiffuseSampler hei_sm_15_garage_detail\dt1_25_rsn_cmk_light001.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			EmissiveMultiplier 1.10000000
+		}
+		normal_spec_decal.sps
+		{
+			DiffuseSampler hei_sm_15_garage_detail\im_roadmarkings02im_roadmarkings02_a.otx
+			BumpSampler hei_sm_15_garage_detail\im_roadmarkings02_n.otx
+			SpecSampler hei_sm_15_garage_detail\im_roadmarkings02_s.otx
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecMapIntMask 0.00000000 0.00000000 1.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 35.00000000
+			SpecularFresnel 0.92000000
+		}
+		normal_spec_decal.sps
+		{
+			DiffuseSampler hei_sm_15_garage_detail\im_roadblends001.otx
+			BumpSampler hei_sm_15_garage_detail\im_roadblends001_n.otx
+			SpecSampler hei_sm_15_garage_detail\im_roadblends001_s.otx
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 30.00000000
+			SpecularFresnel 0.75000000
+		}
+		decal_glue.sps
+		{
+			DiffuseSampler hei_sm_15_garage_detail\dc_parking_splats_01dc_parking_splats_01_a.otx
+			UseTessellation 0.00000000
+			SpecularIntensityMult 0.10000000
+			SpecularFalloffMult 20.00000000
+			SpecularFresnel 0.97000000
+		}
+		normal_spec_decal.sps
+		{
+			DiffuseSampler hei_sm_15_garage_detail\im_ground_overlay0005im_ground_overlay0005_a.otx
+			BumpSampler hei_sm_15_garage_detail\im_ground_overlay0005_n.otx
+			SpecSampler hei_sm_15_garage_detail\im_ground_overlay0005_s.otx
+			UseTessellation 0.00000000
+			Bumpiness 1.50000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 0.60000000
+			SpecularFalloffMult 150.00000000
+			SpecularFresnel 0.97000000
+		}
+		decal.sps
+		{
+			DiffuseSampler hei_sm_15_garage_detail\os_ml_cwoverlay_0002os_ml_cwoverlay_0002_a.otx
+			UseTessellation 0.00000000
+			SpecularIntensityMult 0.00000000
+			SpecularFalloffMult 15.00000000
+			SpecularFresnel 0.97000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		Center -9.20568900 8.41012600 -26.20397000
+		Radius 29.40691000
+		AABBMin -35.86255000 -3.42770400 -29.95154000
+		AABBMax 17.45117000 20.24796000 -22.45641000
+		High 9998.00000000
+		{
+			hei_sm_15_garage_detail\hei_sm_15_garage_detail_high.mesh 0
+		}
+		Med 9998.00000000
+		Low 9998.00000000
+		Vlow 9998.00000000
+	}
+	Joints null
+	Light null
+	Bound null
+}
